@@ -10,16 +10,15 @@ This keyboard design is for educational purposes: for me to learn through experi
 
 * Ergonomic key layout.
 * Removed backlight
-* Added partial RGB backlighting. Keys ESC,~,1,2, F, Thumb keys, J, 9,0,-,= have backlights. This is enough to show battery voltage or where to put your hand in the dark. There are jumpers to bypass the top row LEDs, or add separate LED strips. This uses SK Mini-E rgb lights. Since they are bottom mount and optional, the power caps for them are also bottom & optional.
 * Added optional Kailh sockets for switches without RGB backlight. These sockets are cheaper than switches, so I like them in protototypes. While there is room for the sockets above the motherboard, it's only a couple thicknesses of paper. This probably reduces cooling and may permit chort circuits. 
 * Removed surface mount Atmega32u4 (cost and chip shortages). Instead it uses the 3 volt Adafruit itsy bitsy. https://learn.adafruit.com/introducting-itsy-bitsy-32u4/pinouts you must hack a USB cable to connect the MCU to the keyboard (see screenprint for "airwire"). You MUST modify the itsyBitsy to disable or remove the 3v3 regulator. Failure to do so may damage the motherboard. 
 * Optional power off switch/jumper that can completly remove power to the keyboard.
 * Lots of break out pins, so that it should be possible to use the PCB with other MCUs.
 * Desktop option for through hole OLED modules. Available from online retailers
+* Added partial RGB backlighting. Keys ESC,~,1,2, F, Thumb keys, J, 9,0,-,= have backlights. This is enough to show battery voltage or where to put your hand in the dark. There are jumpers to bypass the top row LEDs, or add separate LED strips. This uses SK Mini-E rgb lights. 
 
-#git submodules
-git submodule sync reform && git submodule update --depth 50 --init reform
-
+## errata / changelog / todo
+* V0 - the pictured version - had the power disconnect on the 5 volt side instead of 3v. ooops. 
 
 # License
 This work is derived from work Copyright 2018-2020 MNT Research GmbH.
