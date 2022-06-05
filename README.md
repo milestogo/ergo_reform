@@ -4,7 +4,7 @@ ergonomic keyboard remix for the  MNT Reform laptop
 This keyboard design is for educational purposes: for me to learn through experimenting, or for for you to educate me. Little remains of MNT's tested design. I have not tested the current version.  Hardware may have dangerous, ignorant or time wasting mistakes. Software is not guaranteed to run or be useful for any purpose. 
 
 ## Images
-![Ergo keyboard V1](https://raw.githubusercontent.com/milestogo/ergo_reform/MNT-ergo-small.jpg))
+![Ergo keyboard V1](./MNT-ergo-small.jpg)
 
 ## Changes from MNT reform
 
