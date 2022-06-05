@@ -1,0 +1,236 @@
+/*
+  MNT Reform 2.0 Keyboard Firmware
+  See keyboard.c for Copyright
+  SPDX-License-Identifier: MIT
+*/
+
+#include "keyboard.h"
+
+/// Custom scancodes used in this keymap
+// we overload Keypad scancodes in the B0-D0 range. 
+#define KEY_NOP    0xB0 // keypad 00
+
+// Shift Mods
+#define KEY_PLUS   0xB6 
+#define KEY_UNDS   0xB7 
+#define KEY_PIPE   0xB8 
+#define KEY_LCBRC  0xB9 
+#define KEY_RCBRC  0xBA 
+#define KEY_PASTE  0xBB
+#define KEY_TILDE  0xBC
+#define KEY_LPRN   0xBD
+#define KEY_RPRN   0xBE
+
+#define ERGO_SHIFT_LOW  KEY_PLUS
+#define ERGO_SHIFT_HI  KEY_RPRN
+
+// CTRL mods
+#define KEY_ALL   0xC5 
+#define KEY_KILL  0xC6 
+#define KEY_COPY  0xC7 
+#define KEY_CUT   0xC8
+#define KEY_TMUX  0xC9
+#define KEY_WORDF 0xCA
+#define KEY_WORDB 0xCB 
+#define KEY_DELWF 0xCC // alt-d
+#define KEY_DELWB 0xCD // delete back one word ctl w
+
+#define ERGO_CTRL_LOW  KEY_ALL
+#define ERGO_CTRL_HI   KEY_DELWB
+
+
+// ALT MODS
+#define KEY_FOO 0xCE
+
+#define ERGO_ALT_LOW  KEY_FOO
+#define ERGO_ALT_HI   KEY_FOO
+
+// shorter mappings. 
+#define KEY_UP    KEY_UP_ARROW
+#define KEY_GRAVE KEY_GRAVE_ACCENT_AND_TILDE
+#define KEY_LEFT  KEY_LEFT_ARROW
+#define KEY_RIGHT KEY_RIGHT_ARROW
+#define KEY_UP    KEY_UP_ARROW
+#define KEY_DOWN  KEY_DOWN_ARROW
+#define KEY_RBRC  KEY_CLOSING_BRACKET_AND_CLOSING_BRACE
+#define KEY_LBRC  KEY_OPENING_BRACKET_AND_OPENING_BRACE
+#define KEY_LSFT  HID_KEYBOARD_SC_LEFT_SHIFT
+#define KEY_RSFT  HID_KEYBOARD_SC_RIGHT_SHIFT
+#define KEY_PGUP  KEY_PAGE_UP
+#define KEY_PGDN  KEY_PAGE_DOWN
+#define KEY_SCLN  KEY_SEMICOLON_AND_COLON
+#define KEY_MINS  KEY_MINUS_AND_UNDERSCORE
+#define KEY_DEL   KEY_DELETE
+#define KEY_EQL   KEY_EQUAL_AND_PLUS
+
+
+// Top row, left to right (ignoring the outermost keys of Row 6)
+#define MATRIX_ERGO_ROW_1 \
+  KEY_MINUS_AND_UNDERSCORE,\
+  KEY_1,\
+  KEY_2,\
+  KEY_3,\
+  KEY_4,\
+  KEY_5,\
+  KEY_6,\
+  KEY_7,\
+  KEY_8,\
+  KEY_9,\
+  KEY_0,\
+  KEY_EQUAL_AND_PLUS
+
+
+
+// Second row
+#define MATRIX_ERGO_ROW_2 \
+  KEY_TAB,\
+  KEY_Q,\
+  KEY_W,\
+  KEY_F,\
+  KEY_P,\
+  KEY_B,\
+  KEY_J,\
+  KEY_L,\
+  KEY_U,\
+  KEY_Y,\
+  KEY_SEMICOLON_AND_COLON,\
+  KEY_BACKSLASH_AND_PIPE
+
+// Third row
+#define MATRIX_ERGO_ROW_3 \
+  KEY_ESCAPE,\
+  KEY_A,\
+  KEY_R,\
+  KEY_S,\
+  KEY_T,\
+  KEY_G,\
+  KEY_M,\
+  KEY_N,\
+  KEY_E,\
+  KEY_I,\
+  KEY_O,\
+  KEY_APOSTROPHE_AND_QUOTE
+
+// Fourth row
+#define MATRIX_ERGO_ROW_4 \
+  HID_KEYBOARD_SC_LEFT_SHIFT,\
+  KEY_Z,\
+  KEY_X,\
+  KEY_C,\
+  KEY_D,\
+  KEY_V,\
+  KEY_K,\
+  KEY_H,\
+  HID_KEYBOARD_SC_COMMA_AND_LESS_THAN_SIGN,\
+  HID_KEYBOARD_SC_DOT_AND_GREATER_THAN_SIGN,\
+  KEY_SLASH_AND_QUESTION_MARK,\
+  HID_KEYBOARD_SC_RIGHT_SHIFT
+
+// Sixth row
+#define MATRIX_ERGO_ROW_5 \
+  HID_KEYBOARD_SC_LEFT_GUI,\
+  HID_KEYBOARD_SC_RIGHT_CONTROL,\
+  HID_KEYBOARD_SC_LEFT_ARROW,\
+  HID_KEYBOARD_SC_RIGHT_ARROW,\
+  HID_KEYBOARD_SC_EXECUTE,\
+  KEY_BACKSPACE,\
+  KEY_SPACE,\
+  KEY_ENTER,\
+  HID_KEYBOARD_SC_UP_ARROW,\
+  HID_KEYBOARD_SC_DOWN_ARROW,\
+  HID_KEYBOARD_SC_RIGHT_ALT,\
+  HID_KEYBOARD_SC_RIGHT_CONTROL
+
+// Row 6, only outside keys exist. 
+#define MATRIX_ERGO_ROW_6 \
+  KEY_CIRCLE,\
+  KEY_NOP,\
+  KEY_NOP,\
+  KEY_NOP,\
+  KEY_NOP,\
+  KEY_NOP,\
+  KEY_NOP,\
+  KEY_NOP,\
+  KEY_NOP,\
+  KEY_NOP,\
+  KEY_NOP,\
+  KEY_CIRCLE
+
+
+#define MATRIX_ERGO_FN1 \
+  KEY_F11, KEY_F1,   KEY_F2,    KEY_F3,    KEY_F4,   KEY_F5,   KEY_F6,    KEY_F7,    KEY_F8,   KEY_F9,    KEY_F10,   KEY_F12
+
+#define MATRIX_ERGO_FN2 \
+  KEY_NOP, KEY_NOP,  KEY_LBRC,  KEY_RBRC,  KEY_PIPE, KEY_NOP,  KEY_NOP,   KEY_DELWB, KEY_UP,   KEY_DELWF, KEY_RCBRC, KEY_NOP
+  
+#define MATRIX_ERGO_FN3 \
+  KEY_TMUX,KEY_TILDE,KEY_LCBRC, KEY_RCBRC, KEY_CUT,  KEY_TILDE,KEY_WORDB, KEY_LEFT,  KEY_DOWN, KEY_RIGHT, KEY_WORDF, KEY_GRAVE
+
+#define MATRIX_ERGO_FN4 \
+  KEY_LSFT,KEY_NOP,  KEY_LPRN,  KEY_RPRN,  KEY_PASTE,KEY_NOP,  KEY_KILL,  KEY_ALL,   KEY_F3,   KEY_NOP,   KEY_END,   KEY_RSFT
+
+// Sixth row
+#define MATRIX_ERGO_FN5 \
+  HID_KEYBOARD_SC_LEFT_GUI,\
+  HID_KEYBOARD_SC_RIGHT_CONTROL,\
+  KEY_LBRC,\
+  KEY_RBRC,\
+  HID_KEYBOARD_SC_EXECUTE,\
+  KEY_DELETE,\
+  KEY_SPACE,\
+  KEY_ENTER,\
+  KEY_LCBRC,\
+  KEY_RCBRC,\
+  HID_KEYBOARD_SC_RIGHT_ALT,\
+  HID_KEYBOARD_SC_RIGHT_CONTROL
+
+
+// Every line of `matrix` is a row of the keyboard, starting from the top.
+// Check keyboard.h for the definitions of the default rows.
+uint8_t matrix[KBD_MATRIX_SZ] = {
+  MATRIX_ERGO_ROW_1,
+  MATRIX_ERGO_ROW_2,
+  MATRIX_ERGO_ROW_3,
+  MATRIX_ERGO_ROW_4,
+  MATRIX_ERGO_ROW_5,
+  MATRIX_ERGO_ROW_6,
+
+  // Marker for layout editor (FIXME)
+  KBD_EDITOR_MARKER
+};
+
+
+// When holding down HYPER
+uint8_t matrix_fn[KBD_MATRIX_SZ] = {
+  MATRIX_ERGO_FN1,
+  MATRIX_ERGO_FN2,
+  MATRIX_ERGO_FN3,
+  MATRIX_ERGO_FN4,
+  MATRIX_ERGO_FN5,
+  MATRIX_ERGO_ROW_6
+};
+
+// Second layer (toggled by HYPER+CIRCLE)
+uint8_t matrix_fn_toggled[KBD_MATRIX_SZ] = {
+  // Custom top row
+
+  KEY_TAB,\
+  KEY_Q,\
+  KEY_W,\
+  KEY_F,\
+  KEY_P,\
+  KEY_B,\
+  HID_KEYBOARD_SC_MEDIA_BACKWARD,
+  HID_KEYBOARD_SC_MEDIA_PLAY,
+  HID_KEYBOARD_SC_MEDIA_FORWARD,
+  HID_KEYBOARD_SC_MEDIA_VOLUME_DOWN,
+  HID_KEYBOARD_SC_MEDIA_VOLUME_UP,
+  HID_KEYBOARD_SC_MEDIA_MUTE,
+ 
+  MATRIX_ERGO_ROW_2,
+  MATRIX_ERGO_ROW_3,
+  MATRIX_ERGO_ROW_4,
+  MATRIX_ERGO_ROW_5,
+  MATRIX_ERGO_ROW_6
+};
+

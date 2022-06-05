@@ -17,6 +17,9 @@ This keyboard design is for educational purposes: for me to learn through experi
 * Lots of break out pins, so that it should be possible to use the PCB with other MCUs.
 * Desktop option for through hole OLED modules. Available from online retailers
 
+#git submodules
+git submodule sync reform && git submodule update --depth 50 --init reform
+
 
 # License
 This work is derived from work Copyright 2018-2020 MNT Research GmbH.
