@@ -1,0 +1,6 @@
+[submodule "reform2-keyboard-pcb/reform2-keyboard-pcb/keebio-components"]
+	path = reform2-keyboard-pcb/reform2-keyboard-pcb/keebio-components
+	url = https://github.com/keebio/keebio-components
+[submodule "reform2-keyboard-pcb/reform2-keyboard-pcb/Keebio-Parts.pretty"]
+	path = reform2-keyboard-pcb/reform2-keyboard-pcb/Keebio-Parts.pretty
+	url = https://github.com/keebio/Keebio-Parts.pretty

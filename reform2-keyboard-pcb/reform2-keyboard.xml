@@ -1,0 +1,3743 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/myles/src/public/reform/reform2-keyboard-pcb/reform2-keyboard.kicad_sch</source>
+    <date>Sun 20 Mar 2022 08:52:43 PM PDT</date>
+    <tool>Eeschema 6.0.2-378541a8eb~116~ubuntu21.10.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>MNT Reform 2 Keyboard - ergo remix</title>
+        <company>Copyright 2017-2020 MNT Research GmbH and milestogo</company>
+        <rev>1-ergo</rev>
+        <date>2022-2-22</date>
+        <source>reform2-keyboard.kicad_sch</source>
+        <comment number="1" value="https://mntre.com"/>
+        <comment number="2" value="Original Engineer: Lukas F. Hartmann"/>
+        <comment number="3" value="License: CERN-OHL-S 2.0"/>
+        <comment number="4" value="remix at https://github.com/milestogo/reform"/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Reform KBD MCU/" tstamps="/00000000-0000-0000-0000-00005a2069ae/">
+      <title_block>
+        <title>MNT Reform 2 Keyboard - ergo remix</title>
+        <company>Copyright 2017-2020 MNT Research GmbH and milestogo</company>
+        <rev>1-ergo</rev>
+        <date>2022-2-22</date>
+        <source>reform-kbd-mcu.kicad_sch</source>
+        <comment number="1" value="https://mntre.com"/>
+        <comment number="2" value="Original Engineer: Lukas F. Hartmann"/>
+        <comment number="3" value="License: CERN-OHL-S 2.0"/>
+        <comment number="4" value="remix at https://github.com/milestogo/reform"/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Reform KBD Backlight/" tstamps="/00000000-0000-0000-0000-00005e649921/">
+      <title_block>
+        <title>MNT Reform 2 Keyboard - ergo remix</title>
+        <company>Copyright 2017-2020 MNT Research GmbH and milestogo</company>
+        <rev>1-ergo</rev>
+        <date>2022-2-22</date>
+        <source>reform2-keyboard-backlight.kicad_sch</source>
+        <comment number="1" value="https://mntre.com"/>
+        <comment number="2" value="Original Engineer: Lukas F. Hartmann"/>
+        <comment number="3" value="License: CERN-OHL-S 2.0"/>
+        <comment number="4" value="remix at https://github.com/milestogo/reform"/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="D1">
+      <value>MMDL914T1G</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">ON</field>
+        <field name="Manufacturer_No">MMDL914T1G</field>
+      </fields>
+      <libsource lib="reform2-keyboard-rescue" part="D_Small-Device" description=""/>
+      <property name="Manufacturer" value="ON"/>
+      <property name="Manufacturer_No" value="MMDL914T1G"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594d7ffc</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>MMDL914T1G</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">ON</field>
+        <field name="Manufacturer_No">MMDL914T1G</field>
+      </fields>
+      <libsource lib="reform2-keyboard-rescue" part="D_Small-Device" description=""/>
+      <property name="Manufacturer" value="ON"/>
+      <property name="Manufacturer_No" value="MMDL914T1G"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594eabbd</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>MMDL914T1G</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">ON</field>
+        <field name="Manufacturer_No">MMDL914T1G</field>
+      </fields>
+      <libsource lib="reform2-keyboard-rescue" part="D_Small-Device" description=""/>
+      <property name="Manufacturer" value="ON"/>
+      <property name="Manufacturer_No" value="MMDL914T1G"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594daccf</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>MMDL914T1G</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">ON</field>
+        <field name="Manufacturer_No">MMDL914T1G</field>
+      </fields>
+      <libsource lib="reform2-keyboard-rescue" part="D_Small-Device" description=""/>
+      <property name="Manufacturer" value="ON"/>
+      <property name="Manufacturer_No" value="MMDL914T1G"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594dbbad</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>MMDL914T1G</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">ON</field>
+        <field name="Manufacturer_No">MMDL914T1G</field>
+      </fields>
+      <libsource lib="reform2-keyboard-rescue" part="D_Small-Device" description=""/>
+      <property name="Manufacturer" value="ON"/>
+      <property name="Manufacturer_No" value="MMDL914T1G"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594dcb25</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>MMDL914T1G</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">ON</field>
+        <field name="Manufacturer_No">MMDL914T1G</field>
+      </fields>
+      <libsource lib="reform2-keyboard-rescue" part="D_Small-Device" description=""/>
+      <property name="Manufacturer" value="ON"/>
+      <property name="Manufacturer_No" value="MMDL914T1G"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594d80d3</tstamps>
+    </comp>
+    <comp ref="D8">
+      <value>MMDL914T1G</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">ON</field>
+        <field name="Manufacturer_No">MMDL914T1G</field>
+      </fields>
+      <libsource lib="reform2-keyboard-rescue" part="D_Small-Device" description=""/>
+      <property name="Manufacturer" value="ON"/>
+      <property name="Manufacturer_No" value="MMDL914T1G"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594dac33</tstamps>
+    </comp>
+    <comp ref="D9">
+      <value>MMDL914T1G</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">ON</field>
+        <field name="Manufacturer_No">MMDL914T1G</field>
+      </fields>
+      <libsource lib="reform2-keyboard-rescue" part="D_Small-Device" description=""/>
+      <property name="Manufacturer" value="ON"/>
+      <property name="Manufacturer_No" value="MMDL914T1G"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594dbb11</tstamps>
+    </comp>
+    <comp ref="D10">
+      <value>MMDL914T1G</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">ON</field>
+        <field name="Manufacturer_No">MMDL914T1G</field>
+      </fields>
+      <libsource lib="reform2-keyboard-rescue" part="D_Small-Device" description=""/>
+      <property name="Manufacturer" value="ON"/>
+      <property name="Manufacturer_No" value="MMDL914T1G"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594dca6f</tstamps>
+    </comp>
+    <comp ref="D11">
+      <value>MMDL914T1G</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">ON</field>
+        <field name="Manufacturer_No">MMDL914T1G</field>
+      </fields>
+      <libsource lib="reform2-keyboard-rescue" part="D_Small-Device" description=""/>
+      <property name="Manufacturer" value="ON"/>
+      <property name="Manufacturer_No" value="MMDL914T1G"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594dcb2b</tstamps>
+    </comp>
+    <comp ref="D13">
+      <value>MMDL914T1G</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">ON</field>
+        <field name="Manufacturer_No">MMDL914T1G</field>
+      </fields>
+      <libsource lib="reform2-keyboard-rescue" part="D_Small-Device" description=""/>
+      <property name="Manufacturer" value="ON"/>
+      <property name="Manufacturer_No" value="MMDL914T1G"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594d873a</tstamps>
+    </comp>
+    <comp ref="D14">
+      <value>MMDL914T1G</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">ON</field>
+        <field name="Manufacturer_No">MMDL914T1G</field>
+      </fields>
+      <libsource lib="reform2-keyboard-rescue" part="D_Small-Device" description=""/>
+      <property name="Manufacturer" value="ON"/>
+      <property name="Manufacturer_No" value="MMDL914T1G"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594dac39</tstamps>
+    </comp>
+    <comp ref="D15">
+      <value>MMDL914T1G</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">ON</field>
+        <field name="Manufacturer_No">MMDL914T1G</field>
+      </fields>
+      <libsource lib="reform2-keyboard-rescue" part="D_Small-Device" description=""/>
+      <property name="Manufacturer" value="ON"/>
+      <property name="Manufacturer_No" value="MMDL914T1G"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594dbb17</tstamps>
+    </comp>
+    <comp ref="D16">
+      <value>MMDL914T1G</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">ON</field>
+        <field name="Manufacturer_No">MMDL914T1G</field>
+      </fields>
+      <libsource lib="reform2-keyboard-rescue" part="D_Small-Device" description=""/>
+      <property name="Manufacturer" value="ON"/>
+      <property name="Manufacturer_No" value="MMDL914T1G"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594dca75</tstamps>
+    </comp>
+    <comp ref="D17">
+      <value>MMDL914T1G</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">ON</field>
+        <field name="Manufacturer_No">MMDL914T1G</field>
+      </fields>
+      <libsource lib="reform2-keyboard-rescue" part="D_Small-Device" description=""/>
+      <property name="Manufacturer" value="ON"/>
+      <property name="Manufacturer_No" value="MMDL914T1G"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594dcb3e</tstamps>
+    </comp>
+    <comp ref="D19">
+      <value>MMDL914T1G</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">ON</field>
+        <field name="Manufacturer_No">MMDL914T1G</field>
+      </fields>
+      <libsource lib="reform2-keyboard-rescue" part="D_Small-Device" description=""/>
+      <property name="Manufacturer" value="ON"/>
+      <property name="Manufacturer_No" value="MMDL914T1G"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594d8740</tstamps>
+    </comp>
+    <comp ref="D20">
+      <value>MMDL914T1G</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">ON</field>
+        <field name="Manufacturer_No">MMDL914T1G</field>
+      </fields>
+      <libsource lib="reform2-keyboard-rescue" part="D_Small-Device" description=""/>
+      <property name="Manufacturer" value="ON"/>
+      <property name="Manufacturer_No" value="MMDL914T1G"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594dac4c</tstamps>
+    </comp>
+    <comp ref="D21">
+      <value>MMDL914T1G</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">ON</field>
+        <field name="Manufacturer_No">MMDL914T1G</field>
+      </fields>
+      <libsource lib="reform2-keyboard-rescue" part="D_Small-Device" description=""/>
+      <property name="Manufacturer" value="ON"/>
+      <property name="Manufacturer_No" value="MMDL914T1G"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594dbb2a</tstamps>
+    </comp>
+    <comp ref="D22">
+      <value>MMDL914T1G</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">ON</field>
+        <field name="Manufacturer_No">MMDL914T1G</field>
+      </fields>
+      <libsource lib="reform2-keyboard-rescue" part="D_Small-Device" description=""/>
+      <property name="Manufacturer" value="ON"/>
+      <property name="Manufacturer_No" value="MMDL914T1G"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594dca88</tstamps>
+    </comp>
+    <comp ref="D23">
+      <value>MMDL914T1G</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">ON</field>
+        <field name="Manufacturer_No">MMDL914T1G</field>
+      </fields>
+      <libsource lib="reform2-keyboard-rescue" part="D_Small-Device" description=""/>
+      <property name="Manufacturer" value="ON"/>
+      <property name="Manufacturer_No" value="MMDL914T1G"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594dcb44</tstamps>
+    </comp>
+    <comp ref="D25">
+      <value>MMDL914T1G</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">ON</field>
+        <field name="Manufacturer_No">MMDL914T1G</field>
+      </fields>
+      <libsource lib="reform2-keyboard-rescue" part="D_Small-Device" description=""/>
+      <property name="Manufacturer" value="ON"/>
+      <property name="Manufacturer_No" value="MMDL914T1G"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594d8b4c</tstamps>
+    </comp>
+    <comp ref="D26">
+      <value>MMDL914T1G</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">ON</field>
+        <field name="Manufacturer_No">MMDL914T1G</field>
+      </fields>
+      <libsource lib="reform2-keyboard-rescue" part="D_Small-Device" description=""/>
+      <property name="Manufacturer" value="ON"/>
+      <property name="Manufacturer_No" value="MMDL914T1G"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594dac52</tstamps>
+    </comp>
+    <comp ref="D27">
+      <value>MMDL914T1G</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">ON</field>
+        <field name="Manufacturer_No">MMDL914T1G</field>
+      </fields>
+      <libsource lib="reform2-keyboard-rescue" part="D_Small-Device" description=""/>
+      <property name="Manufacturer" value="ON"/>
+      <property name="Manufacturer_No" value="MMDL914T1G"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594dbb30</tstamps>
+    </comp>
+    <comp ref="D28">
+      <value>MMDL914T1G</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">ON</field>
+        <field name="Manufacturer_No">MMDL914T1G</field>
+      </fields>
+      <libsource lib="reform2-keyboard-rescue" part="D_Small-Device" description=""/>
+      <property name="Manufacturer" value="ON"/>
+      <property name="Manufacturer_No" value="MMDL914T1G"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594dca8e</tstamps>
+    </comp>
+    <comp ref="D29">
+      <value>MMDL914T1G</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">ON</field>
+        <field name="Manufacturer_No">MMDL914T1G</field>
+      </fields>
+      <libsource lib="reform2-keyboard-rescue" part="D_Small-Device" description=""/>
+      <property name="Manufacturer" value="ON"/>
+      <property name="Manufacturer_No" value="MMDL914T1G"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594dcb57</tstamps>
+    </comp>
+    <comp ref="D31">
+      <value>MMDL914T1G</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">ON</field>
+        <field name="Manufacturer_No">MMDL914T1G</field>
+      </fields>
+      <libsource lib="reform2-keyboard-rescue" part="D_Small-Device" description=""/>
+      <property name="Manufacturer" value="ON"/>
+      <property name="Manufacturer_No" value="MMDL914T1G"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594d8b52</tstamps>
+    </comp>
+    <comp ref="D32">
+      <value>MMDL914T1G</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">ON</field>
+        <field name="Manufacturer_No">MMDL914T1G</field>
+      </fields>
+      <libsource lib="reform2-keyboard-rescue" part="D_Small-Device" description=""/>
+      <property name="Manufacturer" value="ON"/>
+      <property name="Manufacturer_No" value="MMDL914T1G"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594dac65</tstamps>
+    </comp>
+    <comp ref="D33">
+      <value>MMDL914T1G</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">ON</field>
+        <field name="Manufacturer_No">MMDL914T1G</field>
+      </fields>
+      <libsource lib="reform2-keyboard-rescue" part="D_Small-Device" description=""/>
+      <property name="Manufacturer" value="ON"/>
+      <property name="Manufacturer_No" value="MMDL914T1G"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594dbb43</tstamps>
+    </comp>
+    <comp ref="D34">
+      <value>MMDL914T1G</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">ON</field>
+        <field name="Manufacturer_No">MMDL914T1G</field>
+      </fields>
+      <libsource lib="reform2-keyboard-rescue" part="D_Small-Device" description=""/>
+      <property name="Manufacturer" value="ON"/>
+      <property name="Manufacturer_No" value="MMDL914T1G"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594dcaa1</tstamps>
+    </comp>
+    <comp ref="D35">
+      <value>MMDL914T1G</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">ON</field>
+        <field name="Manufacturer_No">MMDL914T1G</field>
+      </fields>
+      <libsource lib="reform2-keyboard-rescue" part="D_Small-Device" description=""/>
+      <property name="Manufacturer" value="ON"/>
+      <property name="Manufacturer_No" value="MMDL914T1G"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594dcb5d</tstamps>
+    </comp>
+    <comp ref="D37">
+      <value>MMDL914T1G</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">ON</field>
+        <field name="Manufacturer_No">MMDL914T1G</field>
+      </fields>
+      <libsource lib="reform2-keyboard-rescue" part="D_Small-Device" description=""/>
+      <property name="Manufacturer" value="ON"/>
+      <property name="Manufacturer_No" value="MMDL914T1G"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594d8b66</tstamps>
+    </comp>
+    <comp ref="D38">
+      <value>MMDL914T1G</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">ON</field>
+        <field name="Manufacturer_No">MMDL914T1G</field>
+      </fields>
+      <libsource lib="reform2-keyboard-rescue" part="D_Small-Device" description=""/>
+      <property name="Manufacturer" value="ON"/>
+      <property name="Manufacturer_No" value="MMDL914T1G"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594dac6b</tstamps>
+    </comp>
+    <comp ref="D39">
+      <value>MMDL914T1G</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">ON</field>
+        <field name="Manufacturer_No">MMDL914T1G</field>
+      </fields>
+      <libsource lib="reform2-keyboard-rescue" part="D_Small-Device" description=""/>
+      <property name="Manufacturer" value="ON"/>
+      <property name="Manufacturer_No" value="MMDL914T1G"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594dbb49</tstamps>
+    </comp>
+    <comp ref="D40">
+      <value>MMDL914T1G</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">ON</field>
+        <field name="Manufacturer_No">MMDL914T1G</field>
+      </fields>
+      <libsource lib="reform2-keyboard-rescue" part="D_Small-Device" description=""/>
+      <property name="Manufacturer" value="ON"/>
+      <property name="Manufacturer_No" value="MMDL914T1G"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594dcaa7</tstamps>
+    </comp>
+    <comp ref="D41">
+      <value>MMDL914T1G</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">ON</field>
+        <field name="Manufacturer_No">MMDL914T1G</field>
+      </fields>
+      <libsource lib="reform2-keyboard-rescue" part="D_Small-Device" description=""/>
+      <property name="Manufacturer" value="ON"/>
+      <property name="Manufacturer_No" value="MMDL914T1G"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594dcb70</tstamps>
+    </comp>
+    <comp ref="D43">
+      <value>MMDL914T1G</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">ON</field>
+        <field name="Manufacturer_No">MMDL914T1G</field>
+      </fields>
+      <libsource lib="reform2-keyboard-rescue" part="D_Small-Device" description=""/>
+      <property name="Manufacturer" value="ON"/>
+      <property name="Manufacturer_No" value="MMDL914T1G"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594d8b6c</tstamps>
+    </comp>
+    <comp ref="D44">
+      <value>MMDL914T1G</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">ON</field>
+        <field name="Manufacturer_No">MMDL914T1G</field>
+      </fields>
+      <libsource lib="reform2-keyboard-rescue" part="D_Small-Device" description=""/>
+      <property name="Manufacturer" value="ON"/>
+      <property name="Manufacturer_No" value="MMDL914T1G"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594dac7e</tstamps>
+    </comp>
+    <comp ref="D45">
+      <value>MMDL914T1G</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">ON</field>
+        <field name="Manufacturer_No">MMDL914T1G</field>
+      </fields>
+      <libsource lib="reform2-keyboard-rescue" part="D_Small-Device" description=""/>
+      <property name="Manufacturer" value="ON"/>
+      <property name="Manufacturer_No" value="MMDL914T1G"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594dbb5c</tstamps>
+    </comp>
+    <comp ref="D46">
+      <value>MMDL914T1G</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">ON</field>
+        <field name="Manufacturer_No">MMDL914T1G</field>
+      </fields>
+      <libsource lib="reform2-keyboard-rescue" part="D_Small-Device" description=""/>
+      <property name="Manufacturer" value="ON"/>
+      <property name="Manufacturer_No" value="MMDL914T1G"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594dcaba</tstamps>
+    </comp>
+    <comp ref="D47">
+      <value>MMDL914T1G</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">ON</field>
+        <field name="Manufacturer_No">MMDL914T1G</field>
+      </fields>
+      <libsource lib="reform2-keyboard-rescue" part="D_Small-Device" description=""/>
+      <property name="Manufacturer" value="ON"/>
+      <property name="Manufacturer_No" value="MMDL914T1G"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594dcb76</tstamps>
+    </comp>
+    <comp ref="D49">
+      <value>MMDL914T1G</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">ON</field>
+        <field name="Manufacturer_No">MMDL914T1G</field>
+      </fields>
+      <libsource lib="reform2-keyboard-rescue" part="D_Small-Device" description=""/>
+      <property name="Manufacturer" value="ON"/>
+      <property name="Manufacturer_No" value="MMDL914T1G"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594d96e5</tstamps>
+    </comp>
+    <comp ref="D50">
+      <value>MMDL914T1G</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">ON</field>
+        <field name="Manufacturer_No">MMDL914T1G</field>
+      </fields>
+      <libsource lib="reform2-keyboard-rescue" part="D_Small-Device" description=""/>
+      <property name="Manufacturer" value="ON"/>
+      <property name="Manufacturer_No" value="MMDL914T1G"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594dac84</tstamps>
+    </comp>
+    <comp ref="D51">
+      <value>MMDL914T1G</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">ON</field>
+        <field name="Manufacturer_No">MMDL914T1G</field>
+      </fields>
+      <libsource lib="reform2-keyboard-rescue" part="D_Small-Device" description=""/>
+      <property name="Manufacturer" value="ON"/>
+      <property name="Manufacturer_No" value="MMDL914T1G"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594dbb62</tstamps>
+    </comp>
+    <comp ref="D52">
+      <value>MMDL914T1G</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">ON</field>
+        <field name="Manufacturer_No">MMDL914T1G</field>
+      </fields>
+      <libsource lib="reform2-keyboard-rescue" part="D_Small-Device" description=""/>
+      <property name="Manufacturer" value="ON"/>
+      <property name="Manufacturer_No" value="MMDL914T1G"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594dcac0</tstamps>
+    </comp>
+    <comp ref="D53">
+      <value>MMDL914T1G</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">ON</field>
+        <field name="Manufacturer_No">MMDL914T1G</field>
+      </fields>
+      <libsource lib="reform2-keyboard-rescue" part="D_Small-Device" description=""/>
+      <property name="Manufacturer" value="ON"/>
+      <property name="Manufacturer_No" value="MMDL914T1G"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594dcb89</tstamps>
+    </comp>
+    <comp ref="D55">
+      <value>MMDL914T1G</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">ON</field>
+        <field name="Manufacturer_No">MMDL914T1G</field>
+      </fields>
+      <libsource lib="reform2-keyboard-rescue" part="D_Small-Device" description=""/>
+      <property name="Manufacturer" value="ON"/>
+      <property name="Manufacturer_No" value="MMDL914T1G"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594d96eb</tstamps>
+    </comp>
+    <comp ref="D56">
+      <value>MMDL914T1G</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">ON</field>
+        <field name="Manufacturer_No">MMDL914T1G</field>
+      </fields>
+      <libsource lib="reform2-keyboard-rescue" part="D_Small-Device" description=""/>
+      <property name="Manufacturer" value="ON"/>
+      <property name="Manufacturer_No" value="MMDL914T1G"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594dac97</tstamps>
+    </comp>
+    <comp ref="D57">
+      <value>MMDL914T1G</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">ON</field>
+        <field name="Manufacturer_No">MMDL914T1G</field>
+      </fields>
+      <libsource lib="reform2-keyboard-rescue" part="D_Small-Device" description=""/>
+      <property name="Manufacturer" value="ON"/>
+      <property name="Manufacturer_No" value="MMDL914T1G"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594dbb75</tstamps>
+    </comp>
+    <comp ref="D58">
+      <value>MMDL914T1G</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">ON</field>
+        <field name="Manufacturer_No">MMDL914T1G</field>
+      </fields>
+      <libsource lib="reform2-keyboard-rescue" part="D_Small-Device" description=""/>
+      <property name="Manufacturer" value="ON"/>
+      <property name="Manufacturer_No" value="MMDL914T1G"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594dcad3</tstamps>
+    </comp>
+    <comp ref="D59">
+      <value>MMDL914T1G</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">ON</field>
+        <field name="Manufacturer_No">MMDL914T1G</field>
+      </fields>
+      <libsource lib="reform2-keyboard-rescue" part="D_Small-Device" description=""/>
+      <property name="Manufacturer" value="ON"/>
+      <property name="Manufacturer_No" value="MMDL914T1G"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594dcb8f</tstamps>
+    </comp>
+    <comp ref="D61">
+      <value>MMDL914T1G</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">ON</field>
+        <field name="Manufacturer_No">MMDL914T1G</field>
+      </fields>
+      <libsource lib="reform2-keyboard-rescue" part="D_Small-Device" description=""/>
+      <property name="Manufacturer" value="ON"/>
+      <property name="Manufacturer_No" value="MMDL914T1G"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594d96ff</tstamps>
+    </comp>
+    <comp ref="D62">
+      <value>MMDL914T1G</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">ON</field>
+        <field name="Manufacturer_No">MMDL914T1G</field>
+      </fields>
+      <libsource lib="reform2-keyboard-rescue" part="D_Small-Device" description=""/>
+      <property name="Manufacturer" value="ON"/>
+      <property name="Manufacturer_No" value="MMDL914T1G"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594dac9d</tstamps>
+    </comp>
+    <comp ref="D63">
+      <value>MMDL914T1G</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">ON</field>
+        <field name="Manufacturer_No">MMDL914T1G</field>
+      </fields>
+      <libsource lib="reform2-keyboard-rescue" part="D_Small-Device" description=""/>
+      <property name="Manufacturer" value="ON"/>
+      <property name="Manufacturer_No" value="MMDL914T1G"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594dbb7b</tstamps>
+    </comp>
+    <comp ref="D64">
+      <value>MMDL914T1G</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">ON</field>
+        <field name="Manufacturer_No">MMDL914T1G</field>
+      </fields>
+      <libsource lib="reform2-keyboard-rescue" part="D_Small-Device" description=""/>
+      <property name="Manufacturer" value="ON"/>
+      <property name="Manufacturer_No" value="MMDL914T1G"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594dcad9</tstamps>
+    </comp>
+    <comp ref="D65">
+      <value>MMDL914T1G</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">ON</field>
+        <field name="Manufacturer_No">MMDL914T1G</field>
+      </fields>
+      <libsource lib="reform2-keyboard-rescue" part="D_Small-Device" description=""/>
+      <property name="Manufacturer" value="ON"/>
+      <property name="Manufacturer_No" value="MMDL914T1G"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594dcba2</tstamps>
+    </comp>
+    <comp ref="D67">
+      <value>MMDL914T1G</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">ON</field>
+        <field name="Manufacturer_No">MMDL914T1G</field>
+      </fields>
+      <libsource lib="reform2-keyboard-rescue" part="D_Small-Device" description=""/>
+      <property name="Manufacturer" value="ON"/>
+      <property name="Manufacturer_No" value="MMDL914T1G"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594d9705</tstamps>
+    </comp>
+    <comp ref="D68">
+      <value>MMDL914T1G</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">ON</field>
+        <field name="Manufacturer_No">MMDL914T1G</field>
+      </fields>
+      <libsource lib="reform2-keyboard-rescue" part="D_Small-Device" description=""/>
+      <property name="Manufacturer" value="ON"/>
+      <property name="Manufacturer_No" value="MMDL914T1G"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594dacb0</tstamps>
+    </comp>
+    <comp ref="D69">
+      <value>MMDL914T1G</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">ON</field>
+        <field name="Manufacturer_No">MMDL914T1G</field>
+      </fields>
+      <libsource lib="reform2-keyboard-rescue" part="D_Small-Device" description=""/>
+      <property name="Manufacturer" value="ON"/>
+      <property name="Manufacturer_No" value="MMDL914T1G"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594dbb8e</tstamps>
+    </comp>
+    <comp ref="D70">
+      <value>MMDL914T1G</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">ON</field>
+        <field name="Manufacturer_No">MMDL914T1G</field>
+      </fields>
+      <libsource lib="reform2-keyboard-rescue" part="D_Small-Device" description=""/>
+      <property name="Manufacturer" value="ON"/>
+      <property name="Manufacturer_No" value="MMDL914T1G"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594dcaec</tstamps>
+    </comp>
+    <comp ref="D71">
+      <value>MMDL914T1G</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">ON</field>
+        <field name="Manufacturer_No">MMDL914T1G</field>
+      </fields>
+      <libsource lib="reform2-keyboard-rescue" part="D_Small-Device" description=""/>
+      <property name="Manufacturer" value="ON"/>
+      <property name="Manufacturer_No" value="MMDL914T1G"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594dcba8</tstamps>
+    </comp>
+    <comp ref="D72">
+      <value>MMDL914T1G</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">ON</field>
+        <field name="Manufacturer_No">MMDL914T1G</field>
+      </fields>
+      <libsource lib="reform2-keyboard-rescue" part="D_Small-Device" description=""/>
+      <property name="Manufacturer" value="ON"/>
+      <property name="Manufacturer_No" value="MMDL914T1G"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061e6cc00</tstamps>
+    </comp>
+    <comp ref="D73">
+      <value>MMDL914T1G</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">ON</field>
+        <field name="Manufacturer_No">MMDL914T1G</field>
+      </fields>
+      <libsource lib="reform2-keyboard-rescue" part="D_Small-Device" description=""/>
+      <property name="Manufacturer" value="ON"/>
+      <property name="Manufacturer_No" value="MMDL914T1G"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061ead6a4</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>Conn_01x06</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a7380cc0-bdd2-4036-89a3-1ae00f380c9f</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>Conn_01x06</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e7e2cb1b-f3f4-46cb-8db6-471c8b250bdd</tstamps>
+    </comp>
+    <comp ref="J10">
+      <value>Conn_01x06</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6f25fc7c-05d3-4a40-bd45-ef108a07b69c</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>Choc</value>
+      <footprint>keyswitches:PG1350</footprint>
+      <fields>
+        <field name="Manufacturer">Kailh</field>
+        <field name="Manufacturer_No">CPG135001D02</field>
+      </fields>
+      <libsource lib="mntcomp-keyboard" part="Choc" description=""/>
+      <property name="Manufacturer" value="Kailh"/>
+      <property name="Manufacturer_No" value="CPG135001D02"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594d7dfa</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>Choc</value>
+      <footprint>keyswitches:PG1350_optional-socket</footprint>
+      <fields>
+        <field name="Manufacturer">Kailh</field>
+        <field name="Manufacturer_No">CPG135001D02</field>
+      </fields>
+      <libsource lib="mntcomp-keyboard" part="Choc" description=""/>
+      <property name="Manufacturer" value="Kailh"/>
+      <property name="Manufacturer_No" value="CPG135001D02"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594eabb7</tstamps>
+    </comp>
+    <comp ref="SW3">
+      <value>Choc</value>
+      <footprint>keyswitches:PG1350_optional-socket</footprint>
+      <fields>
+        <field name="Manufacturer">Kailh</field>
+        <field name="Manufacturer_No">CPG135001D02</field>
+      </fields>
+      <libsource lib="mntcomp-keyboard" part="Choc" description=""/>
+      <property name="Manufacturer" value="Kailh"/>
+      <property name="Manufacturer_No" value="CPG135001D02"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594dacc2</tstamps>
+    </comp>
+    <comp ref="SW4">
+      <value>Choc</value>
+      <footprint>keyswitches:PG1350_optional-socket</footprint>
+      <fields>
+        <field name="Manufacturer">Kailh</field>
+        <field name="Manufacturer_No">CPG135001D02</field>
+      </fields>
+      <libsource lib="mntcomp-keyboard" part="Choc" description=""/>
+      <property name="Manufacturer" value="Kailh"/>
+      <property name="Manufacturer_No" value="CPG135001D02"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594dbba0</tstamps>
+    </comp>
+    <comp ref="SW5">
+      <value>Choc</value>
+      <footprint>keyswitches:PG1350_optional-socket</footprint>
+      <fields>
+        <field name="Manufacturer">Kailh</field>
+        <field name="Manufacturer_No">CPG135001D02</field>
+      </fields>
+      <libsource lib="mntcomp-keyboard" part="Choc" description=""/>
+      <property name="Manufacturer" value="Kailh"/>
+      <property name="Manufacturer_No" value="CPG135001D02"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594dcb17</tstamps>
+    </comp>
+    <comp ref="SW7">
+      <value>Choc</value>
+      <footprint>keyswitches:PG1350</footprint>
+      <fields>
+        <field name="Manufacturer">Kailh</field>
+        <field name="Manufacturer_No">CPG135001D02</field>
+      </fields>
+      <libsource lib="mntcomp-keyboard" part="Choc" description=""/>
+      <property name="Manufacturer" value="Kailh"/>
+      <property name="Manufacturer_No" value="CPG135001D02"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594d7e8e</tstamps>
+    </comp>
+    <comp ref="SW8">
+      <value>Choc</value>
+      <footprint>keyswitches:PG1350_optional-socket</footprint>
+      <fields>
+        <field name="Manufacturer">Kailh</field>
+        <field name="Manufacturer_No">CPG135001D02</field>
+      </fields>
+      <libsource lib="mntcomp-keyboard" part="Choc" description=""/>
+      <property name="Manufacturer" value="Kailh"/>
+      <property name="Manufacturer_No" value="CPG135001D02"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594dac25</tstamps>
+    </comp>
+    <comp ref="SW9">
+      <value>Choc</value>
+      <footprint>keyswitches:PG1350_optional-socket</footprint>
+      <fields>
+        <field name="Manufacturer">Kailh</field>
+        <field name="Manufacturer_No">CPG135001D02</field>
+      </fields>
+      <libsource lib="mntcomp-keyboard" part="Choc" description=""/>
+      <property name="Manufacturer" value="Kailh"/>
+      <property name="Manufacturer_No" value="CPG135001D02"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594dbb03</tstamps>
+    </comp>
+    <comp ref="SW10">
+      <value>Choc</value>
+      <footprint>keyswitches:PG1350_optional-socket</footprint>
+      <fields>
+        <field name="Manufacturer">Kailh</field>
+        <field name="Manufacturer_No">CPG135001D02</field>
+      </fields>
+      <libsource lib="mntcomp-keyboard" part="Choc" description=""/>
+      <property name="Manufacturer" value="Kailh"/>
+      <property name="Manufacturer_No" value="CPG135001D02"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594dca61</tstamps>
+    </comp>
+    <comp ref="SW11">
+      <value>Choc</value>
+      <footprint>keyswitches:PG1350_optional-socket</footprint>
+      <fields>
+        <field name="Manufacturer">Kailh</field>
+        <field name="Manufacturer_No">CPG135001D02</field>
+      </fields>
+      <libsource lib="mntcomp-keyboard" part="Choc" description=""/>
+      <property name="Manufacturer" value="Kailh"/>
+      <property name="Manufacturer_No" value="CPG135001D02"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594dcb1d</tstamps>
+    </comp>
+    <comp ref="SW13">
+      <value>Choc</value>
+      <footprint>keyswitches:PG1350</footprint>
+      <fields>
+        <field name="Manufacturer">Kailh</field>
+        <field name="Manufacturer_No">CPG135001D02</field>
+      </fields>
+      <libsource lib="mntcomp-keyboard" part="Choc" description=""/>
+      <property name="Manufacturer" value="Kailh"/>
+      <property name="Manufacturer_No" value="CPG135001D02"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594d872c</tstamps>
+    </comp>
+    <comp ref="SW14">
+      <value>Choc</value>
+      <footprint>keyswitches:PG1350_optional-socket</footprint>
+      <fields>
+        <field name="Manufacturer">Kailh</field>
+        <field name="Manufacturer_No">CPG135001D02</field>
+      </fields>
+      <libsource lib="mntcomp-keyboard" part="Choc" description=""/>
+      <property name="Manufacturer" value="Kailh"/>
+      <property name="Manufacturer_No" value="CPG135001D02"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594dac2b</tstamps>
+    </comp>
+    <comp ref="SW15">
+      <value>Choc</value>
+      <footprint>keyswitches:PG1350_optional-socket</footprint>
+      <fields>
+        <field name="Manufacturer">Kailh</field>
+        <field name="Manufacturer_No">CPG135001D02</field>
+      </fields>
+      <libsource lib="mntcomp-keyboard" part="Choc" description=""/>
+      <property name="Manufacturer" value="Kailh"/>
+      <property name="Manufacturer_No" value="CPG135001D02"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594dbb09</tstamps>
+    </comp>
+    <comp ref="SW16">
+      <value>Choc</value>
+      <footprint>keyswitches:PG1350_optional-socket</footprint>
+      <fields>
+        <field name="Manufacturer">Kailh</field>
+        <field name="Manufacturer_No">CPG135001D02</field>
+      </fields>
+      <libsource lib="mntcomp-keyboard" part="Choc" description=""/>
+      <property name="Manufacturer" value="Kailh"/>
+      <property name="Manufacturer_No" value="CPG135001D02"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594dca67</tstamps>
+    </comp>
+    <comp ref="SW17">
+      <value>Choc</value>
+      <footprint>keyswitches:PG1350_optional-socket</footprint>
+      <fields>
+        <field name="Manufacturer">Kailh</field>
+        <field name="Manufacturer_No">CPG135001D02</field>
+      </fields>
+      <libsource lib="mntcomp-keyboard" part="Choc" description=""/>
+      <property name="Manufacturer" value="Kailh"/>
+      <property name="Manufacturer_No" value="CPG135001D02"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594dcb31</tstamps>
+    </comp>
+    <comp ref="SW19">
+      <value>Choc</value>
+      <footprint>keyswitches:PG1350_optional-socket</footprint>
+      <fields>
+        <field name="Manufacturer">Kailh</field>
+        <field name="Manufacturer_No">CPG135001D02</field>
+      </fields>
+      <libsource lib="mntcomp-keyboard" part="Choc" description=""/>
+      <property name="Manufacturer" value="Kailh"/>
+      <property name="Manufacturer_No" value="CPG135001D02"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594d8732</tstamps>
+    </comp>
+    <comp ref="SW20">
+      <value>Choc</value>
+      <footprint>keyswitches:PG1350_optional-socket</footprint>
+      <fields>
+        <field name="Manufacturer">Kailh</field>
+        <field name="Manufacturer_No">CPG135001D02</field>
+      </fields>
+      <libsource lib="mntcomp-keyboard" part="Choc" description=""/>
+      <property name="Manufacturer" value="Kailh"/>
+      <property name="Manufacturer_No" value="CPG135001D02"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594dac3f</tstamps>
+    </comp>
+    <comp ref="SW21">
+      <value>Choc</value>
+      <footprint>keyswitches:PG1350_optional-socket</footprint>
+      <fields>
+        <field name="Manufacturer">Kailh</field>
+        <field name="Manufacturer_No">CPG135001D02</field>
+      </fields>
+      <libsource lib="mntcomp-keyboard" part="Choc" description=""/>
+      <property name="Manufacturer" value="Kailh"/>
+      <property name="Manufacturer_No" value="CPG135001D02"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594dbb1d</tstamps>
+    </comp>
+    <comp ref="SW22">
+      <value>Choc</value>
+      <footprint>keyswitches:PG1350_optional-socket</footprint>
+      <fields>
+        <field name="Manufacturer">Kailh</field>
+        <field name="Manufacturer_No">CPG135001D02</field>
+      </fields>
+      <libsource lib="mntcomp-keyboard" part="Choc" description=""/>
+      <property name="Manufacturer" value="Kailh"/>
+      <property name="Manufacturer_No" value="CPG135001D02"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594dca7b</tstamps>
+    </comp>
+    <comp ref="SW23">
+      <value>Choc</value>
+      <footprint>keyswitches:PG1350_optional-socket</footprint>
+      <fields>
+        <field name="Manufacturer">Kailh</field>
+        <field name="Manufacturer_No">CPG135001D02</field>
+      </fields>
+      <libsource lib="mntcomp-keyboard" part="Choc" description=""/>
+      <property name="Manufacturer" value="Kailh"/>
+      <property name="Manufacturer_No" value="CPG135001D02"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594dcb37</tstamps>
+    </comp>
+    <comp ref="SW25">
+      <value>Choc</value>
+      <footprint>keyswitches:PG1350_optional-socket</footprint>
+      <fields>
+        <field name="Manufacturer">Kailh</field>
+        <field name="Manufacturer_No">CPG135001D02</field>
+      </fields>
+      <libsource lib="mntcomp-keyboard" part="Choc" description=""/>
+      <property name="Manufacturer" value="Kailh"/>
+      <property name="Manufacturer_No" value="CPG135001D02"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594d8b3e</tstamps>
+    </comp>
+    <comp ref="SW26">
+      <value>Choc</value>
+      <footprint>keyswitches:PG1350_optional-socket</footprint>
+      <fields>
+        <field name="Manufacturer">Kailh</field>
+        <field name="Manufacturer_No">CPG135001D02</field>
+      </fields>
+      <libsource lib="mntcomp-keyboard" part="Choc" description=""/>
+      <property name="Manufacturer" value="Kailh"/>
+      <property name="Manufacturer_No" value="CPG135001D02"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594dac45</tstamps>
+    </comp>
+    <comp ref="SW27">
+      <value>Choc</value>
+      <footprint>keyswitches:PG1350</footprint>
+      <fields>
+        <field name="Manufacturer">Kailh</field>
+        <field name="Manufacturer_No">CPG135001D02</field>
+      </fields>
+      <libsource lib="mntcomp-keyboard" part="Choc" description=""/>
+      <property name="Manufacturer" value="Kailh"/>
+      <property name="Manufacturer_No" value="CPG135001D02"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594dbb23</tstamps>
+    </comp>
+    <comp ref="SW28">
+      <value>Choc</value>
+      <footprint>keyswitches:PG1350_optional-socket</footprint>
+      <fields>
+        <field name="Manufacturer">Kailh</field>
+        <field name="Manufacturer_No">CPG135001D02</field>
+      </fields>
+      <libsource lib="mntcomp-keyboard" part="Choc" description=""/>
+      <property name="Manufacturer" value="Kailh"/>
+      <property name="Manufacturer_No" value="CPG135001D02"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594dca81</tstamps>
+    </comp>
+    <comp ref="SW29">
+      <value>Choc</value>
+      <footprint>keyswitches:PG1350</footprint>
+      <fields>
+        <field name="Manufacturer">Kailh</field>
+        <field name="Manufacturer_No">CPG135001D02</field>
+      </fields>
+      <libsource lib="mntcomp-keyboard" part="Choc" description=""/>
+      <property name="Manufacturer" value="Kailh"/>
+      <property name="Manufacturer_No" value="CPG135001D02"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594dcb4a</tstamps>
+    </comp>
+    <comp ref="SW31">
+      <value>Choc</value>
+      <footprint>keyswitches:PG1350_optional-socket</footprint>
+      <fields>
+        <field name="Manufacturer">Kailh</field>
+        <field name="Manufacturer_No">CPG135001D02</field>
+      </fields>
+      <libsource lib="mntcomp-keyboard" part="Choc" description=""/>
+      <property name="Manufacturer" value="Kailh"/>
+      <property name="Manufacturer_No" value="CPG135001D02"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594d8b44</tstamps>
+    </comp>
+    <comp ref="SW32">
+      <value>Choc</value>
+      <footprint>keyswitches:PG1350_optional-socket</footprint>
+      <fields>
+        <field name="Manufacturer">Kailh</field>
+        <field name="Manufacturer_No">CPG135001D02</field>
+      </fields>
+      <libsource lib="mntcomp-keyboard" part="Choc" description=""/>
+      <property name="Manufacturer" value="Kailh"/>
+      <property name="Manufacturer_No" value="CPG135001D02"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594dac58</tstamps>
+    </comp>
+    <comp ref="SW33">
+      <value>Choc</value>
+      <footprint>keyswitches:PG1350_optional-socket</footprint>
+      <fields>
+        <field name="Manufacturer">Kailh</field>
+        <field name="Manufacturer_No">CPG135001D02</field>
+      </fields>
+      <libsource lib="mntcomp-keyboard" part="Choc" description=""/>
+      <property name="Manufacturer" value="Kailh"/>
+      <property name="Manufacturer_No" value="CPG135001D02"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594dbb36</tstamps>
+    </comp>
+    <comp ref="SW34">
+      <value>Choc</value>
+      <footprint>keyswitches:PG1350_optional-socket</footprint>
+      <fields>
+        <field name="Manufacturer">Kailh</field>
+        <field name="Manufacturer_No">CPG135001D02</field>
+      </fields>
+      <libsource lib="mntcomp-keyboard" part="Choc" description=""/>
+      <property name="Manufacturer" value="Kailh"/>
+      <property name="Manufacturer_No" value="CPG135001D02"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594dca94</tstamps>
+    </comp>
+    <comp ref="SW35">
+      <value>Choc</value>
+      <footprint>keyswitches:PG1350</footprint>
+      <fields>
+        <field name="Manufacturer">Kailh</field>
+        <field name="Manufacturer_No">CPG135001D02</field>
+      </fields>
+      <libsource lib="mntcomp-keyboard" part="Choc" description=""/>
+      <property name="Manufacturer" value="Kailh"/>
+      <property name="Manufacturer_No" value="CPG135001D02"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594dcb50</tstamps>
+    </comp>
+    <comp ref="SW37">
+      <value>Choc</value>
+      <footprint>keyswitches:PG1350_optional-socket</footprint>
+      <fields>
+        <field name="Manufacturer">Kailh</field>
+        <field name="Manufacturer_No">CPG135001D02</field>
+      </fields>
+      <libsource lib="mntcomp-keyboard" part="Choc" description=""/>
+      <property name="Manufacturer" value="Kailh"/>
+      <property name="Manufacturer_No" value="CPG135001D02"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594d8b58</tstamps>
+    </comp>
+    <comp ref="SW38">
+      <value>Choc</value>
+      <footprint>keyswitches:PG1350_optional-socket</footprint>
+      <fields>
+        <field name="Manufacturer">Kailh</field>
+        <field name="Manufacturer_No">CPG135001D02</field>
+      </fields>
+      <libsource lib="mntcomp-keyboard" part="Choc" description=""/>
+      <property name="Manufacturer" value="Kailh"/>
+      <property name="Manufacturer_No" value="CPG135001D02"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594dac5e</tstamps>
+    </comp>
+    <comp ref="SW39">
+      <value>Choc</value>
+      <footprint>keyswitches:PG1350_optional-socket</footprint>
+      <fields>
+        <field name="Manufacturer">Kailh</field>
+        <field name="Manufacturer_No">CPG135001D02</field>
+      </fields>
+      <libsource lib="mntcomp-keyboard" part="Choc" description=""/>
+      <property name="Manufacturer" value="Kailh"/>
+      <property name="Manufacturer_No" value="CPG135001D02"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594dbb3c</tstamps>
+    </comp>
+    <comp ref="SW40">
+      <value>Choc</value>
+      <footprint>keyswitches:PG1350_optional-socket</footprint>
+      <fields>
+        <field name="Manufacturer">Kailh</field>
+        <field name="Manufacturer_No">CPG135001D02</field>
+      </fields>
+      <libsource lib="mntcomp-keyboard" part="Choc" description=""/>
+      <property name="Manufacturer" value="Kailh"/>
+      <property name="Manufacturer_No" value="CPG135001D02"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594dca9a</tstamps>
+    </comp>
+    <comp ref="SW41">
+      <value>Choc</value>
+      <footprint>keyswitches:PG1350</footprint>
+      <fields>
+        <field name="Manufacturer">Kailh</field>
+        <field name="Manufacturer_No">CPG135001D02</field>
+      </fields>
+      <libsource lib="mntcomp-keyboard" part="Choc" description=""/>
+      <property name="Manufacturer" value="Kailh"/>
+      <property name="Manufacturer_No" value="CPG135001D02"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594dcb63</tstamps>
+    </comp>
+    <comp ref="SW43">
+      <value>Choc</value>
+      <footprint>keyswitches:PG1350_optional-socket</footprint>
+      <fields>
+        <field name="Manufacturer">Kailh</field>
+        <field name="Manufacturer_No">CPG135001D02</field>
+      </fields>
+      <libsource lib="mntcomp-keyboard" part="Choc" description=""/>
+      <property name="Manufacturer" value="Kailh"/>
+      <property name="Manufacturer_No" value="CPG135001D02"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594d8b5e</tstamps>
+    </comp>
+    <comp ref="SW44">
+      <value>Choc</value>
+      <footprint>keyswitches:PG1350_optional-socket</footprint>
+      <fields>
+        <field name="Manufacturer">Kailh</field>
+        <field name="Manufacturer_No">CPG135001D02</field>
+      </fields>
+      <libsource lib="mntcomp-keyboard" part="Choc" description=""/>
+      <property name="Manufacturer" value="Kailh"/>
+      <property name="Manufacturer_No" value="CPG135001D02"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594dac71</tstamps>
+    </comp>
+    <comp ref="SW45">
+      <value>Choc</value>
+      <footprint>keyswitches:PG1350</footprint>
+      <fields>
+        <field name="Manufacturer">Kailh</field>
+        <field name="Manufacturer_No">CPG135001D02</field>
+      </fields>
+      <libsource lib="mntcomp-keyboard" part="Choc" description=""/>
+      <property name="Manufacturer" value="Kailh"/>
+      <property name="Manufacturer_No" value="CPG135001D02"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594dbb4f</tstamps>
+    </comp>
+    <comp ref="SW46">
+      <value>Choc</value>
+      <footprint>keyswitches:PG1350_optional-socket</footprint>
+      <fields>
+        <field name="Manufacturer">Kailh</field>
+        <field name="Manufacturer_No">CPG135001D02</field>
+      </fields>
+      <libsource lib="mntcomp-keyboard" part="Choc" description=""/>
+      <property name="Manufacturer" value="Kailh"/>
+      <property name="Manufacturer_No" value="CPG135001D02"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594dcaad</tstamps>
+    </comp>
+    <comp ref="SW47">
+      <value>Choc</value>
+      <footprint>keyswitches:PG1350</footprint>
+      <fields>
+        <field name="Manufacturer">Kailh</field>
+        <field name="Manufacturer_No">CPG135001D02</field>
+      </fields>
+      <libsource lib="mntcomp-keyboard" part="Choc" description=""/>
+      <property name="Manufacturer" value="Kailh"/>
+      <property name="Manufacturer_No" value="CPG135001D02"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594dcb69</tstamps>
+    </comp>
+    <comp ref="SW49">
+      <value>Choc</value>
+      <footprint>keyswitches:PG1350_optional-socket</footprint>
+      <fields>
+        <field name="Manufacturer">Kailh</field>
+        <field name="Manufacturer_No">CPG135001D02</field>
+      </fields>
+      <libsource lib="mntcomp-keyboard" part="Choc" description=""/>
+      <property name="Manufacturer" value="Kailh"/>
+      <property name="Manufacturer_No" value="CPG135001D02"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594d96d7</tstamps>
+    </comp>
+    <comp ref="SW50">
+      <value>Choc</value>
+      <footprint>keyswitches:PG1350_optional-socket</footprint>
+      <fields>
+        <field name="Manufacturer">Kailh</field>
+        <field name="Manufacturer_No">CPG135001D02</field>
+      </fields>
+      <libsource lib="mntcomp-keyboard" part="Choc" description=""/>
+      <property name="Manufacturer" value="Kailh"/>
+      <property name="Manufacturer_No" value="CPG135001D02"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594dac77</tstamps>
+    </comp>
+    <comp ref="SW51">
+      <value>Choc</value>
+      <footprint>keyswitches:PG1350_optional-socket</footprint>
+      <fields>
+        <field name="Manufacturer">Kailh</field>
+        <field name="Manufacturer_No">CPG135001D02</field>
+      </fields>
+      <libsource lib="mntcomp-keyboard" part="Choc" description=""/>
+      <property name="Manufacturer" value="Kailh"/>
+      <property name="Manufacturer_No" value="CPG135001D02"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594dbb55</tstamps>
+    </comp>
+    <comp ref="SW52">
+      <value>Choc</value>
+      <footprint>keyswitches:PG1350_optional-socket</footprint>
+      <fields>
+        <field name="Manufacturer">Kailh</field>
+        <field name="Manufacturer_No">CPG135001D02</field>
+      </fields>
+      <libsource lib="mntcomp-keyboard" part="Choc" description=""/>
+      <property name="Manufacturer" value="Kailh"/>
+      <property name="Manufacturer_No" value="CPG135001D02"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594dcab3</tstamps>
+    </comp>
+    <comp ref="SW53">
+      <value>Choc</value>
+      <footprint>keyswitches:PG1350_optional-socket</footprint>
+      <fields>
+        <field name="Manufacturer">Kailh</field>
+        <field name="Manufacturer_No">CPG135001D02</field>
+      </fields>
+      <libsource lib="mntcomp-keyboard" part="Choc" description=""/>
+      <property name="Manufacturer" value="Kailh"/>
+      <property name="Manufacturer_No" value="CPG135001D02"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594dcb7c</tstamps>
+    </comp>
+    <comp ref="SW55">
+      <value>Choc</value>
+      <footprint>keyswitches:PG1350</footprint>
+      <fields>
+        <field name="Manufacturer">Kailh</field>
+        <field name="Manufacturer_No">CPG135001D02</field>
+      </fields>
+      <libsource lib="mntcomp-keyboard" part="Choc" description=""/>
+      <property name="Manufacturer" value="Kailh"/>
+      <property name="Manufacturer_No" value="CPG135001D02"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594d96dd</tstamps>
+    </comp>
+    <comp ref="SW56">
+      <value>Choc</value>
+      <footprint>keyswitches:PG1350_optional-socket</footprint>
+      <fields>
+        <field name="Manufacturer">Kailh</field>
+        <field name="Manufacturer_No">CPG135001D02</field>
+      </fields>
+      <libsource lib="mntcomp-keyboard" part="Choc" description=""/>
+      <property name="Manufacturer" value="Kailh"/>
+      <property name="Manufacturer_No" value="CPG135001D02"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594dac8a</tstamps>
+    </comp>
+    <comp ref="SW57">
+      <value>Choc</value>
+      <footprint>keyswitches:PG1350_optional-socket</footprint>
+      <fields>
+        <field name="Manufacturer">Kailh</field>
+        <field name="Manufacturer_No">CPG135001D02</field>
+      </fields>
+      <libsource lib="mntcomp-keyboard" part="Choc" description=""/>
+      <property name="Manufacturer" value="Kailh"/>
+      <property name="Manufacturer_No" value="CPG135001D02"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594dbb68</tstamps>
+    </comp>
+    <comp ref="SW58">
+      <value>Choc</value>
+      <footprint>keyswitches:PG1350_optional-socket</footprint>
+      <fields>
+        <field name="Manufacturer">Kailh</field>
+        <field name="Manufacturer_No">CPG135001D02</field>
+      </fields>
+      <libsource lib="mntcomp-keyboard" part="Choc" description=""/>
+      <property name="Manufacturer" value="Kailh"/>
+      <property name="Manufacturer_No" value="CPG135001D02"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594dcac6</tstamps>
+    </comp>
+    <comp ref="SW59">
+      <value>Choc</value>
+      <footprint>keyswitches:PG1350_optional-socket</footprint>
+      <fields>
+        <field name="Manufacturer">Kailh</field>
+        <field name="Manufacturer_No">CPG135001D02</field>
+      </fields>
+      <libsource lib="mntcomp-keyboard" part="Choc" description=""/>
+      <property name="Manufacturer" value="Kailh"/>
+      <property name="Manufacturer_No" value="CPG135001D02"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594dcb82</tstamps>
+    </comp>
+    <comp ref="SW61">
+      <value>Choc</value>
+      <footprint>keyswitches:PG1350</footprint>
+      <fields>
+        <field name="Manufacturer">Kailh</field>
+        <field name="Manufacturer_No">CPG135001D02</field>
+      </fields>
+      <libsource lib="mntcomp-keyboard" part="Choc" description=""/>
+      <property name="Manufacturer" value="Kailh"/>
+      <property name="Manufacturer_No" value="CPG135001D02"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594d96f1</tstamps>
+    </comp>
+    <comp ref="SW62">
+      <value>Choc</value>
+      <footprint>keyswitches:PG1350_optional-socket</footprint>
+      <fields>
+        <field name="Manufacturer">Kailh</field>
+        <field name="Manufacturer_No">CPG135001D02</field>
+      </fields>
+      <libsource lib="mntcomp-keyboard" part="Choc" description=""/>
+      <property name="Manufacturer" value="Kailh"/>
+      <property name="Manufacturer_No" value="CPG135001D02"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594dac90</tstamps>
+    </comp>
+    <comp ref="SW63">
+      <value>Choc</value>
+      <footprint>keyswitches:PG1350_optional-socket</footprint>
+      <fields>
+        <field name="Manufacturer">Kailh</field>
+        <field name="Manufacturer_No">CPG135001D02</field>
+      </fields>
+      <libsource lib="mntcomp-keyboard" part="Choc" description=""/>
+      <property name="Manufacturer" value="Kailh"/>
+      <property name="Manufacturer_No" value="CPG135001D02"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594dbb6e</tstamps>
+    </comp>
+    <comp ref="SW64">
+      <value>Choc</value>
+      <footprint>keyswitches:PG1350_optional-socket</footprint>
+      <fields>
+        <field name="Manufacturer">Kailh</field>
+        <field name="Manufacturer_No">CPG135001D02</field>
+      </fields>
+      <libsource lib="mntcomp-keyboard" part="Choc" description=""/>
+      <property name="Manufacturer" value="Kailh"/>
+      <property name="Manufacturer_No" value="CPG135001D02"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594dcacc</tstamps>
+    </comp>
+    <comp ref="SW65">
+      <value>Choc</value>
+      <footprint>keyswitches:PG1350_optional-socket</footprint>
+      <fields>
+        <field name="Manufacturer">Kailh</field>
+        <field name="Manufacturer_No">CPG135001D02</field>
+      </fields>
+      <libsource lib="mntcomp-keyboard" part="Choc" description=""/>
+      <property name="Manufacturer" value="Kailh"/>
+      <property name="Manufacturer_No" value="CPG135001D02"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594dcb95</tstamps>
+    </comp>
+    <comp ref="SW67">
+      <value>Choc</value>
+      <footprint>keyswitches:PG1350</footprint>
+      <fields>
+        <field name="Manufacturer">Kailh</field>
+        <field name="Manufacturer_No">CPG135001D02</field>
+      </fields>
+      <libsource lib="mntcomp-keyboard" part="Choc" description=""/>
+      <property name="Manufacturer" value="Kailh"/>
+      <property name="Manufacturer_No" value="CPG135001D02"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594d96f7</tstamps>
+    </comp>
+    <comp ref="SW68">
+      <value>Choc</value>
+      <footprint>keyswitches:PG1350_optional-socket</footprint>
+      <fields>
+        <field name="Manufacturer">Kailh</field>
+        <field name="Manufacturer_No">CPG135001D02</field>
+      </fields>
+      <libsource lib="mntcomp-keyboard" part="Choc" description=""/>
+      <property name="Manufacturer" value="Kailh"/>
+      <property name="Manufacturer_No" value="CPG135001D02"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594daca3</tstamps>
+    </comp>
+    <comp ref="SW69">
+      <value>Choc</value>
+      <footprint>keyswitches:PG1350_optional-socket</footprint>
+      <fields>
+        <field name="Manufacturer">Kailh</field>
+        <field name="Manufacturer_No">CPG135001D02</field>
+      </fields>
+      <libsource lib="mntcomp-keyboard" part="Choc" description=""/>
+      <property name="Manufacturer" value="Kailh"/>
+      <property name="Manufacturer_No" value="CPG135001D02"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594dbb81</tstamps>
+    </comp>
+    <comp ref="SW70">
+      <value>Choc</value>
+      <footprint>keyswitches:PG1350_optional-socket</footprint>
+      <fields>
+        <field name="Manufacturer">Kailh</field>
+        <field name="Manufacturer_No">CPG135001D02</field>
+      </fields>
+      <libsource lib="mntcomp-keyboard" part="Choc" description=""/>
+      <property name="Manufacturer" value="Kailh"/>
+      <property name="Manufacturer_No" value="CPG135001D02"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594dcadf</tstamps>
+    </comp>
+    <comp ref="SW71">
+      <value>Choc</value>
+      <footprint>keyswitches:PG1350_optional-socket</footprint>
+      <fields>
+        <field name="Manufacturer">Kailh</field>
+        <field name="Manufacturer_No">CPG135001D02</field>
+      </fields>
+      <libsource lib="mntcomp-keyboard" part="Choc" description=""/>
+      <property name="Manufacturer" value="Kailh"/>
+      <property name="Manufacturer_No" value="CPG135001D02"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000594dcb9b</tstamps>
+    </comp>
+    <comp ref="SW72">
+      <value>Choc</value>
+      <footprint>keyswitches:PG1350</footprint>
+      <fields>
+        <field name="Manufacturer">Kailh</field>
+        <field name="Manufacturer_No">CPG135001D02</field>
+      </fields>
+      <libsource lib="mntcomp-keyboard" part="Choc" description=""/>
+      <property name="Manufacturer" value="Kailh"/>
+      <property name="Manufacturer_No" value="CPG135001D02"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061cd9bdf</tstamps>
+    </comp>
+    <comp ref="SW73">
+      <value>Choc</value>
+      <footprint>keyswitches:PG1350</footprint>
+      <fields>
+        <field name="Manufacturer">Kailh</field>
+        <field name="Manufacturer_No">CPG135001D02</field>
+      </fields>
+      <libsource lib="mntcomp-keyboard" part="Choc" description=""/>
+      <property name="Manufacturer" value="Kailh"/>
+      <property name="Manufacturer_No" value="CPG135001D02"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reform2-keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061d0e6c7</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>18pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer_No">CC0603JRNPO9BN180</field>
+      </fields>
+      <libsource lib="reform2-keyboard-rescue" part="C_Small-Device" description=""/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer_No" value="CC0603JRNPO9BN180"/>
+      <property name="Sheetname" value="Reform KBD MCU"/>
+      <property name="Sheetfile" value="reform-kbd-mcu.kicad_sch"/>
+      <sheetpath names="/Reform KBD MCU/" tstamps="/00000000-0000-0000-0000-00005a2069ae/"/>
+      <tstamps>5e8e7d56-428e-4c75-8db7-3390c6a0d761</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>18pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer_No">CC0603JRNPO9BN180</field>
+      </fields>
+      <libsource lib="reform2-keyboard-rescue" part="C_Small-Device" description=""/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer_No" value="CC0603JRNPO9BN180"/>
+      <property name="Sheetname" value="Reform KBD MCU"/>
+      <property name="Sheetfile" value="reform-kbd-mcu.kicad_sch"/>
+      <sheetpath names="/Reform KBD MCU/" tstamps="/00000000-0000-0000-0000-00005a2069ae/"/>
+      <tstamps>9a3aa54c-5c59-469c-87aa-d1cf40e3854b</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Manufacturer">TDK</field>
+        <field name="Manufacturer_No">C1608X8L1C105K080AC</field>
+      </fields>
+      <libsource lib="reform2-keyboard-rescue" part="C_Small-Device" description=""/>
+      <property name="Manufacturer" value="TDK"/>
+      <property name="Manufacturer_No" value="C1608X8L1C105K080AC"/>
+      <property name="Sheetname" value="Reform KBD MCU"/>
+      <property name="Sheetfile" value="reform-kbd-mcu.kicad_sch"/>
+      <sheetpath names="/Reform KBD MCU/" tstamps="/00000000-0000-0000-0000-00005a2069ae/"/>
+      <tstamps>7a016b38-9901-40f3-8745-1f334984149a</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer_No">CC0603JPX7R9BB104</field>
+      </fields>
+      <libsource lib="reform2-keyboard-rescue" part="C_Small-Device" description=""/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer_No" value="CC0603JPX7R9BB104"/>
+      <property name="Sheetname" value="Reform KBD MCU"/>
+      <property name="Sheetfile" value="reform-kbd-mcu.kicad_sch"/>
+      <sheetpath names="/Reform KBD MCU/" tstamps="/00000000-0000-0000-0000-00005a2069ae/"/>
+      <tstamps>00000000-0000-0000-0000-00005a214a09</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Manufacturer">TDK</field>
+        <field name="Manufacturer_No">C1608X8L1C105K080AC</field>
+      </fields>
+      <libsource lib="reform2-keyboard-rescue" part="C_Small-Device" description=""/>
+      <property name="Manufacturer" value="TDK"/>
+      <property name="Manufacturer_No" value="C1608X8L1C105K080AC"/>
+      <property name="Sheetname" value="Reform KBD MCU"/>
+      <property name="Sheetfile" value="reform-kbd-mcu.kicad_sch"/>
+      <sheetpath names="/Reform KBD MCU/" tstamps="/00000000-0000-0000-0000-00005a2069ae/"/>
+      <tstamps>00000000-0000-0000-0000-00005a2148c0</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer_No">CC0603JPX7R9BB104</field>
+      </fields>
+      <libsource lib="reform2-keyboard-rescue" part="C_Small-Device" description=""/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer_No" value="CC0603JPX7R9BB104"/>
+      <property name="Sheetname" value="Reform KBD MCU"/>
+      <property name="Sheetfile" value="reform-kbd-mcu.kicad_sch"/>
+      <sheetpath names="/Reform KBD MCU/" tstamps="/00000000-0000-0000-0000-00005a2069ae/"/>
+      <tstamps>00000000-0000-0000-0000-00005dc43caf</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Flags">DNP</field>
+        <field name="Manufacturer">TDK</field>
+        <field name="Manufacturer_No">C1608X8L1C105K080AC</field>
+      </fields>
+      <libsource lib="reform2-keyboard-rescue" part="C_Small-Device" description=""/>
+      <property name="Manufacturer" value="TDK"/>
+      <property name="Manufacturer_No" value="C1608X8L1C105K080AC"/>
+      <property name="Flags" value="DNP"/>
+      <property name="Sheetname" value="Reform KBD MCU"/>
+      <property name="Sheetfile" value="reform-kbd-mcu.kicad_sch"/>
+      <sheetpath names="/Reform KBD MCU/" tstamps="/00000000-0000-0000-0000-00005a2069ae/"/>
+      <tstamps>00000000-0000-0000-0000-00005f2226e4</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Flags">DNP</field>
+        <field name="Manufacturer">TDK</field>
+        <field name="Manufacturer_No">C1608X8L1C105K080AC</field>
+      </fields>
+      <libsource lib="reform2-keyboard-rescue" part="C_Small-Device" description=""/>
+      <property name="Manufacturer" value="TDK"/>
+      <property name="Manufacturer_No" value="C1608X8L1C105K080AC"/>
+      <property name="Flags" value="DNP"/>
+      <property name="Sheetname" value="Reform KBD MCU"/>
+      <property name="Sheetfile" value="reform-kbd-mcu.kicad_sch"/>
+      <sheetpath names="/Reform KBD MCU/" tstamps="/00000000-0000-0000-0000-00005a2069ae/"/>
+      <tstamps>00000000-0000-0000-0000-00005f223065</tstamps>
+    </comp>
+    <comp ref="GFX1">
+      <value>MNT</value>
+      <footprint>reform2-keyboard:mnt-remix-reform</footprint>
+      <libsource lib="reform2-keyboard-rescue" part="MountingHole-Mechanical" description=""/>
+      <property name="Sheetname" value="Reform KBD MCU"/>
+      <property name="Sheetfile" value="reform-kbd-mcu.kicad_sch"/>
+      <sheetpath names="/Reform KBD MCU/" tstamps="/00000000-0000-0000-0000-00005a2069ae/"/>
+      <tstamps>00000000-0000-0000-0000-00005cfbb66e</tstamps>
+    </comp>
+    <comp ref="GFX2">
+      <value>MNT</value>
+      <footprint>reform2-keyboard:mnt-remix-reform</footprint>
+      <libsource lib="reform2-keyboard-rescue" part="MountingHole-Mechanical" description=""/>
+      <property name="Sheetname" value="Reform KBD MCU"/>
+      <property name="Sheetfile" value="reform-kbd-mcu.kicad_sch"/>
+      <sheetpath names="/Reform KBD MCU/" tstamps="/00000000-0000-0000-0000-00005a2069ae/"/>
+      <tstamps>00000000-0000-0000-0000-00005cfbbdcd</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MH1</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_Pad</footprint>
+      <libsource lib="reform2-keyboard-rescue" part="MountingHole_Pad-Mechanical" description=""/>
+      <property name="Sheetname" value="Reform KBD MCU"/>
+      <property name="Sheetfile" value="reform-kbd-mcu.kicad_sch"/>
+      <sheetpath names="/Reform KBD MCU/" tstamps="/00000000-0000-0000-0000-00005a2069ae/"/>
+      <tstamps>00000000-0000-0000-0000-00005cfab6f9</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MH2</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_Pad</footprint>
+      <libsource lib="reform2-keyboard-rescue" part="MountingHole_Pad-Mechanical" description=""/>
+      <property name="Sheetname" value="Reform KBD MCU"/>
+      <property name="Sheetfile" value="reform-kbd-mcu.kicad_sch"/>
+      <sheetpath names="/Reform KBD MCU/" tstamps="/00000000-0000-0000-0000-00005a2069ae/"/>
+      <tstamps>00000000-0000-0000-0000-00005cfabdd2</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MH3</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_Pad</footprint>
+      <libsource lib="reform2-keyboard-rescue" part="MountingHole_Pad-Mechanical" description=""/>
+      <property name="Sheetname" value="Reform KBD MCU"/>
+      <property name="Sheetfile" value="reform-kbd-mcu.kicad_sch"/>
+      <sheetpath names="/Reform KBD MCU/" tstamps="/00000000-0000-0000-0000-00005a2069ae/"/>
+      <tstamps>00000000-0000-0000-0000-00005cfac2c0</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>MH4</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_Pad</footprint>
+      <libsource lib="reform2-keyboard-rescue" part="MountingHole_Pad-Mechanical" description=""/>
+      <property name="Sheetname" value="Reform KBD MCU"/>
+      <property name="Sheetfile" value="reform-kbd-mcu.kicad_sch"/>
+      <sheetpath names="/Reform KBD MCU/" tstamps="/00000000-0000-0000-0000-00005a2069ae/"/>
+      <tstamps>00000000-0000-0000-0000-00005cfac2ca</tstamps>
+    </comp>
+    <comp ref="H5">
+      <value>MH5</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_Pad</footprint>
+      <libsource lib="reform2-keyboard-rescue" part="MountingHole_Pad-Mechanical" description=""/>
+      <property name="Sheetname" value="Reform KBD MCU"/>
+      <property name="Sheetfile" value="reform-kbd-mcu.kicad_sch"/>
+      <sheetpath names="/Reform KBD MCU/" tstamps="/00000000-0000-0000-0000-00005a2069ae/"/>
+      <tstamps>00000000-0000-0000-0000-00005dc7f0c0</tstamps>
+    </comp>
+    <comp ref="H6">
+      <value>MH6</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_Pad</footprint>
+      <libsource lib="reform2-keyboard-rescue" part="MountingHole_Pad-Mechanical" description=""/>
+      <property name="Sheetname" value="Reform KBD MCU"/>
+      <property name="Sheetfile" value="reform-kbd-mcu.kicad_sch"/>
+      <sheetpath names="/Reform KBD MCU/" tstamps="/00000000-0000-0000-0000-00005a2069ae/"/>
+      <tstamps>00000000-0000-0000-0000-00005dc7f6f1</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>USB</value>
+      <footprint>Connector_JST:JST_PH_S4B-PH-SM4-TB_1x04-1MP_P2.00mm_Horizontal</footprint>
+      <fields>
+        <field name="Manufacturer">JST</field>
+        <field name="Manufacturer_No">S4B-PH-SM4-TB(LF)(SN)</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturer" value="JST"/>
+      <property name="Manufacturer_No" value="S4B-PH-SM4-TB(LF)(SN)"/>
+      <property name="Sheetname" value="Reform KBD MCU"/>
+      <property name="Sheetfile" value="reform-kbd-mcu.kicad_sch"/>
+      <sheetpath names="/Reform KBD MCU/" tstamps="/00000000-0000-0000-0000-00005a2069ae/"/>
+      <tstamps>00000000-0000-0000-0000-00005a213b3d</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>UART</value>
+      <footprint>Connector_JST:JST_PH_S4B-PH-SM4-TB_1x04-1MP_P2.00mm_Horizontal</footprint>
+      <fields>
+        <field name="Manufacturer">JST</field>
+        <field name="Manufacturer_No">S4B-PH-SM4-TB(LF)(SN)</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturer" value="JST"/>
+      <property name="Manufacturer_No" value="S4B-PH-SM4-TB(LF)(SN)"/>
+      <property name="Sheetname" value="Reform KBD MCU"/>
+      <property name="Sheetfile" value="reform-kbd-mcu.kicad_sch"/>
+      <sheetpath names="/Reform KBD MCU/" tstamps="/00000000-0000-0000-0000-00005a2069ae/"/>
+      <tstamps>00000000-0000-0000-0000-00005cf60438</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>AUX</value>
+      <footprint>Connector_FFC-FPC:Molex_200528-0040_1x04-1MP_P1.00mm_Horizontal</footprint>
+      <fields>
+        <field name="Manufacturer">Molex</field>
+        <field name="Manufacturer_No">200528-0040</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturer" value="Molex"/>
+      <property name="Manufacturer_No" value="200528-0040"/>
+      <property name="Sheetname" value="Reform KBD MCU"/>
+      <property name="Sheetfile" value="reform-kbd-mcu.kicad_sch"/>
+      <sheetpath names="/Reform KBD MCU/" tstamps="/00000000-0000-0000-0000-00005a2069ae/"/>
+      <tstamps>00000000-0000-0000-0000-00005d0c1e6c</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Desktop USB</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal</footprint>
+      <fields>
+        <field name="Manufacturer_No">IDC 2.54 header 1x04</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer_No" value="IDC 2.54 header 1x04"/>
+      <property name="Sheetname" value="Reform KBD MCU"/>
+      <property name="Sheetfile" value="reform-kbd-mcu.kicad_sch"/>
+      <sheetpath names="/Reform KBD MCU/" tstamps="/00000000-0000-0000-0000-00005a2069ae/"/>
+      <tstamps>5b5e9141-c3e3-40c2-852f-c88e1a59ae95</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>AUX</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Manufacturer">Molex</field>
+        <field name="Manufacturer_No">200528-0040</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturer" value="Molex"/>
+      <property name="Manufacturer_No" value="200528-0040"/>
+      <property name="Sheetname" value="Reform KBD MCU"/>
+      <property name="Sheetfile" value="reform-kbd-mcu.kicad_sch"/>
+      <sheetpath names="/Reform KBD MCU/" tstamps="/00000000-0000-0000-0000-00005a2069ae/"/>
+      <tstamps>3e9a69d4-72a8-4465-a258-5d64d6b9393f</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>22</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Vishay Dale</field>
+        <field name="Manufacturer_No">CRCW06030000Z0EAC</field>
+      </fields>
+      <libsource lib="reform2-keyboard-rescue" part="R_Small-Device" description=""/>
+      <property name="Manufacturer" value="Vishay Dale"/>
+      <property name="Manufacturer_No" value="CRCW06030000Z0EAC"/>
+      <property name="Sheetname" value="Reform KBD MCU"/>
+      <property name="Sheetfile" value="reform-kbd-mcu.kicad_sch"/>
+      <sheetpath names="/Reform KBD MCU/" tstamps="/00000000-0000-0000-0000-00005a2069ae/"/>
+      <tstamps>00000000-0000-0000-0000-00005a213f64</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>22</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Vishay Dale</field>
+        <field name="Manufacturer_No">CRCW06030000Z0EAC</field>
+      </fields>
+      <libsource lib="reform2-keyboard-rescue" part="R_Small-Device" description=""/>
+      <property name="Manufacturer" value="Vishay Dale"/>
+      <property name="Manufacturer_No" value="CRCW06030000Z0EAC"/>
+      <property name="Sheetname" value="Reform KBD MCU"/>
+      <property name="Sheetfile" value="reform-kbd-mcu.kicad_sch"/>
+      <sheetpath names="/Reform KBD MCU/" tstamps="/00000000-0000-0000-0000-00005a2069ae/"/>
+      <tstamps>00000000-0000-0000-0000-00005a213edf</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer_No">RC0603FR-0710KL</field>
+      </fields>
+      <libsource lib="reform2-keyboard-rescue" part="R_Small-Device" description=""/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer_No" value="RC0603FR-0710KL"/>
+      <property name="Sheetname" value="Reform KBD MCU"/>
+      <property name="Sheetfile" value="reform-kbd-mcu.kicad_sch"/>
+      <sheetpath names="/Reform KBD MCU/" tstamps="/00000000-0000-0000-0000-00005a2069ae/"/>
+      <tstamps>5e966a54-abf8-41bb-9d44-dfbbe5ef5635</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Vishay Dale</field>
+        <field name="Manufacturer_No">CRCW06030000Z0EAC</field>
+      </fields>
+      <libsource lib="reform2-keyboard-rescue" part="R_Small-Device" description=""/>
+      <property name="Manufacturer" value="Vishay Dale"/>
+      <property name="Manufacturer_No" value="CRCW06030000Z0EAC"/>
+      <property name="Sheetname" value="Reform KBD MCU"/>
+      <property name="Sheetfile" value="reform-kbd-mcu.kicad_sch"/>
+      <sheetpath names="/Reform KBD MCU/" tstamps="/00000000-0000-0000-0000-00005a2069ae/"/>
+      <tstamps>887d45a8-8262-42b0-a3bf-11ac51cfc8be</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer_No">RC0603FR-074K7L</field>
+      </fields>
+      <libsource lib="reform2-keyboard-rescue" part="R_Small-Device" description=""/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer_No" value="RC0603FR-074K7L"/>
+      <property name="Sheetname" value="Reform KBD MCU"/>
+      <property name="Sheetfile" value="reform-kbd-mcu.kicad_sch"/>
+      <sheetpath names="/Reform KBD MCU/" tstamps="/00000000-0000-0000-0000-00005a2069ae/"/>
+      <tstamps>00000000-0000-0000-0000-00005dcce912</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer_No">RC0603FR-074K7L</field>
+      </fields>
+      <libsource lib="reform2-keyboard-rescue" part="R_Small-Device" description=""/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer_No" value="RC0603FR-074K7L"/>
+      <property name="Sheetname" value="Reform KBD MCU"/>
+      <property name="Sheetfile" value="reform-kbd-mcu.kicad_sch"/>
+      <sheetpath names="/Reform KBD MCU/" tstamps="/00000000-0000-0000-0000-00005a2069ae/"/>
+      <tstamps>00000000-0000-0000-0000-00005dcd0c98</tstamps>
+    </comp>
+    <comp ref="SW83">
+      <value>RESET</value>
+      <footprint>Button_Switch_SMD:SW_Push_1P1T_NO_CK_KMR2</footprint>
+      <fields>
+        <field name="Manufacturer">C&amp;K</field>
+        <field name="Manufacturer_No">KMR221GLFS</field>
+      </fields>
+      <libsource lib="reform2-keyboard-rescue" part="SW_SPST-Switch" description=""/>
+      <property name="Manufacturer" value="C&amp;K"/>
+      <property name="Manufacturer_No" value="KMR221GLFS"/>
+      <property name="Sheetname" value="Reform KBD MCU"/>
+      <property name="Sheetfile" value="reform-kbd-mcu.kicad_sch"/>
+      <sheetpath names="/Reform KBD MCU/" tstamps="/00000000-0000-0000-0000-00005a2069ae/"/>
+      <tstamps>00000000-0000-0000-0000-00005cf3da9e</tstamps>
+    </comp>
+    <comp ref="SW84">
+      <value>SW_DIP_x01</value>
+      <footprint>Button_Switch_SMD:SW_DIP_SPSTx01_Slide_Omron_A6S-110x_W8.9mm_P2.54mm</footprint>
+      <fields>
+        <field name="Manufacturer">Apem</field>
+        <field name="Manufacturer_No">DM01</field>
+      </fields>
+      <libsource lib="reform2-keyboard-rescue" part="SW_DIP_x01-Switch" description=""/>
+      <property name="Manufacturer" value="Apem"/>
+      <property name="Manufacturer_No" value="DM01"/>
+      <property name="Sheetname" value="Reform KBD MCU"/>
+      <property name="Sheetfile" value="reform-kbd-mcu.kicad_sch"/>
+      <sheetpath names="/Reform KBD MCU/" tstamps="/00000000-0000-0000-0000-00005a2069ae/"/>
+      <tstamps>a20e2d60-9a8f-467b-a31d-ec0d52abb287</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>ATMEGA32U4-AU</value>
+      <footprint>Package_QFP:TQFP-44_10x10mm_P0.8mm</footprint>
+      <fields>
+        <field name="Manufacturer">Microchip</field>
+        <field name="Manufacturer_No">ATMEGA32U4-AU</field>
+      </fields>
+      <libsource lib="reform2-keyboard-rescue" part="ATmega32U4-AU-MCU_Microchip_ATmega" description=""/>
+      <property name="Manufacturer" value="Microchip"/>
+      <property name="Manufacturer_No" value="ATMEGA32U4-AU"/>
+      <property name="Sheetname" value="Reform KBD MCU"/>
+      <property name="Sheetfile" value="reform-kbd-mcu.kicad_sch"/>
+      <sheetpath names="/Reform KBD MCU/" tstamps="/00000000-0000-0000-0000-00005a2069ae/"/>
+      <tstamps>893856b2-27af-4d88-aa6d-b843520eb1f8</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>MCP1700-3302E_SOT23</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/20001826D.pdf</datasheet>
+      <fields>
+        <field name="Flags">DNP</field>
+        <field name="Manufacturer">Microchip</field>
+        <field name="Manufacturer_No">MCP1700T-3302E/TT</field>
+      </fields>
+      <libsource lib="reform2-keyboard-rescue" part="MCP1700-3302E_SOT23-Regulator_Linear" description=""/>
+      <property name="Manufacturer" value="Microchip"/>
+      <property name="Manufacturer_No" value="MCP1700T-3302E/TT"/>
+      <property name="Flags" value="DNP"/>
+      <property name="Sheetname" value="Reform KBD MCU"/>
+      <property name="Sheetfile" value="reform-kbd-mcu.kicad_sch"/>
+      <sheetpath names="/Reform KBD MCU/" tstamps="/00000000-0000-0000-0000-00005a2069ae/"/>
+      <tstamps>00000000-0000-0000-0000-00005f214b98</tstamps>
+    </comp>
+    <comp ref="Y1">
+      <value>16MHz</value>
+      <footprint>Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm</footprint>
+      <fields>
+        <field name="Manufacturer">Abracon</field>
+        <field name="Manufacturer_No">ABM8AIG-16.000MHz-4-T</field>
+      </fields>
+      <libsource lib="reform2-keyboard-rescue" part="Crystal_GND24-Device" description=""/>
+      <property name="Manufacturer" value="Abracon"/>
+      <property name="Manufacturer_No" value="ABM8AIG-16.000MHz-4-T"/>
+      <property name="Sheetname" value="Reform KBD MCU"/>
+      <property name="Sheetfile" value="reform-kbd-mcu.kicad_sch"/>
+      <sheetpath names="/Reform KBD MCU/" tstamps="/00000000-0000-0000-0000-00005a2069ae/"/>
+      <tstamps>10ecf584-2d0a-44a3-a383-bda246d87134</tstamps>
+    </comp>
+    <comp ref="C100">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Taiyo Yuden</field>
+        <field name="Manufacturer_No">JMK107BB7475KA-T</field>
+      </fields>
+      <libsource lib="reform2-keyboard-rescue" part="C_Small-Device" description=""/>
+      <property name="Manufacturer" value="Taiyo Yuden"/>
+      <property name="Manufacturer_No" value="JMK107BB7475KA-T"/>
+      <property name="Sheetname" value="Reform KBD Backlight"/>
+      <property name="Sheetfile" value="reform2-keyboard-backlight.kicad_sch"/>
+      <sheetpath names="/Reform KBD Backlight/" tstamps="/00000000-0000-0000-0000-00005e649921/"/>
+      <tstamps>00000000-0000-0000-0000-00005e6768bb</tstamps>
+    </comp>
+    <comp ref="C101">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Taiyo Yuden</field>
+        <field name="Manufacturer_No">JMK107BB7475KA-T</field>
+      </fields>
+      <libsource lib="reform2-keyboard-rescue" part="C_Small-Device" description=""/>
+      <property name="Manufacturer" value="Taiyo Yuden"/>
+      <property name="Manufacturer_No" value="JMK107BB7475KA-T"/>
+      <property name="Sheetname" value="Reform KBD Backlight"/>
+      <property name="Sheetfile" value="reform2-keyboard-backlight.kicad_sch"/>
+      <sheetpath names="/Reform KBD Backlight/" tstamps="/00000000-0000-0000-0000-00005e649921/"/>
+      <tstamps>62d235ac-8576-4bfc-95d1-96e46996ac5e</tstamps>
+    </comp>
+    <comp ref="C102">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Taiyo Yuden</field>
+        <field name="Manufacturer_No">JMK107BB7475KA-T</field>
+      </fields>
+      <libsource lib="reform2-keyboard-rescue" part="C_Small-Device" description=""/>
+      <property name="Manufacturer" value="Taiyo Yuden"/>
+      <property name="Manufacturer_No" value="JMK107BB7475KA-T"/>
+      <property name="Sheetname" value="Reform KBD Backlight"/>
+      <property name="Sheetfile" value="reform2-keyboard-backlight.kicad_sch"/>
+      <sheetpath names="/Reform KBD Backlight/" tstamps="/00000000-0000-0000-0000-00005e649921/"/>
+      <tstamps>b6b9573f-6570-41fb-9e2e-1918ab6831dd</tstamps>
+    </comp>
+    <comp ref="C103">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Taiyo Yuden</field>
+        <field name="Manufacturer_No">JMK107BB7475KA-T</field>
+      </fields>
+      <libsource lib="reform2-keyboard-rescue" part="C_Small-Device" description=""/>
+      <property name="Manufacturer" value="Taiyo Yuden"/>
+      <property name="Manufacturer_No" value="JMK107BB7475KA-T"/>
+      <property name="Sheetname" value="Reform KBD Backlight"/>
+      <property name="Sheetfile" value="reform2-keyboard-backlight.kicad_sch"/>
+      <sheetpath names="/Reform KBD Backlight/" tstamps="/00000000-0000-0000-0000-00005e649921/"/>
+      <tstamps>9c66aad3-2d02-4e1e-9e9a-0645efa538a7</tstamps>
+    </comp>
+    <comp ref="C104">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Taiyo Yuden</field>
+        <field name="Manufacturer_No">JMK107BB7475KA-T</field>
+      </fields>
+      <libsource lib="reform2-keyboard-rescue" part="C_Small-Device" description=""/>
+      <property name="Manufacturer" value="Taiyo Yuden"/>
+      <property name="Manufacturer_No" value="JMK107BB7475KA-T"/>
+      <property name="Sheetname" value="Reform KBD Backlight"/>
+      <property name="Sheetfile" value="reform2-keyboard-backlight.kicad_sch"/>
+      <sheetpath names="/Reform KBD Backlight/" tstamps="/00000000-0000-0000-0000-00005e649921/"/>
+      <tstamps>8cc2321f-dd33-4f77-a29e-3528344c88dc</tstamps>
+    </comp>
+    <comp ref="C105">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Taiyo Yuden</field>
+        <field name="Manufacturer_No">JMK107BB7475KA-T</field>
+      </fields>
+      <libsource lib="reform2-keyboard-rescue" part="C_Small-Device" description=""/>
+      <property name="Manufacturer" value="Taiyo Yuden"/>
+      <property name="Manufacturer_No" value="JMK107BB7475KA-T"/>
+      <property name="Sheetname" value="Reform KBD Backlight"/>
+      <property name="Sheetfile" value="reform2-keyboard-backlight.kicad_sch"/>
+      <sheetpath names="/Reform KBD Backlight/" tstamps="/00000000-0000-0000-0000-00005e649921/"/>
+      <tstamps>a423b3e2-d54c-4075-8397-0fa61f019d6d</tstamps>
+    </comp>
+    <comp ref="C106">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Taiyo Yuden</field>
+        <field name="Manufacturer_No">JMK107BB7475KA-T</field>
+      </fields>
+      <libsource lib="reform2-keyboard-rescue" part="C_Small-Device" description=""/>
+      <property name="Manufacturer" value="Taiyo Yuden"/>
+      <property name="Manufacturer_No" value="JMK107BB7475KA-T"/>
+      <property name="Sheetname" value="Reform KBD Backlight"/>
+      <property name="Sheetfile" value="reform2-keyboard-backlight.kicad_sch"/>
+      <sheetpath names="/Reform KBD Backlight/" tstamps="/00000000-0000-0000-0000-00005e649921/"/>
+      <tstamps>25d656f9-272b-407f-9d25-d06c20394f06</tstamps>
+    </comp>
+    <comp ref="C110">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Taiyo Yuden</field>
+        <field name="Manufacturer_No">JMK107BB7475KA-T</field>
+      </fields>
+      <libsource lib="reform2-keyboard-rescue" part="C_Small-Device" description=""/>
+      <property name="Manufacturer" value="Taiyo Yuden"/>
+      <property name="Manufacturer_No" value="JMK107BB7475KA-T"/>
+      <property name="Sheetname" value="Reform KBD Backlight"/>
+      <property name="Sheetfile" value="reform2-keyboard-backlight.kicad_sch"/>
+      <sheetpath names="/Reform KBD Backlight/" tstamps="/00000000-0000-0000-0000-00005e649921/"/>
+      <tstamps>7af3e89c-354a-409b-8f6b-7ceaa4a6af18</tstamps>
+    </comp>
+    <comp ref="C111">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Taiyo Yuden</field>
+        <field name="Manufacturer_No">JMK107BB7475KA-T</field>
+      </fields>
+      <libsource lib="reform2-keyboard-rescue" part="C_Small-Device" description=""/>
+      <property name="Manufacturer" value="Taiyo Yuden"/>
+      <property name="Manufacturer_No" value="JMK107BB7475KA-T"/>
+      <property name="Sheetname" value="Reform KBD Backlight"/>
+      <property name="Sheetfile" value="reform2-keyboard-backlight.kicad_sch"/>
+      <sheetpath names="/Reform KBD Backlight/" tstamps="/00000000-0000-0000-0000-00005e649921/"/>
+      <tstamps>cb3d1d0d-6fcb-45e2-a207-dfe730d544a3</tstamps>
+    </comp>
+    <comp ref="C112">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Taiyo Yuden</field>
+        <field name="Manufacturer_No">JMK107BB7475KA-T</field>
+      </fields>
+      <libsource lib="reform2-keyboard-rescue" part="C_Small-Device" description=""/>
+      <property name="Manufacturer" value="Taiyo Yuden"/>
+      <property name="Manufacturer_No" value="JMK107BB7475KA-T"/>
+      <property name="Sheetname" value="Reform KBD Backlight"/>
+      <property name="Sheetfile" value="reform2-keyboard-backlight.kicad_sch"/>
+      <sheetpath names="/Reform KBD Backlight/" tstamps="/00000000-0000-0000-0000-00005e649921/"/>
+      <tstamps>e675cfa3-d70d-469a-a770-7267860e4af1</tstamps>
+    </comp>
+    <comp ref="C113">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Taiyo Yuden</field>
+        <field name="Manufacturer_No">JMK107BB7475KA-T</field>
+      </fields>
+      <libsource lib="reform2-keyboard-rescue" part="C_Small-Device" description=""/>
+      <property name="Manufacturer" value="Taiyo Yuden"/>
+      <property name="Manufacturer_No" value="JMK107BB7475KA-T"/>
+      <property name="Sheetname" value="Reform KBD Backlight"/>
+      <property name="Sheetfile" value="reform2-keyboard-backlight.kicad_sch"/>
+      <sheetpath names="/Reform KBD Backlight/" tstamps="/00000000-0000-0000-0000-00005e649921/"/>
+      <tstamps>207ec94d-bcdc-4b1d-9bc8-890a520218c4</tstamps>
+    </comp>
+    <comp ref="C114">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Taiyo Yuden</field>
+        <field name="Manufacturer_No">JMK107BB7475KA-T</field>
+      </fields>
+      <libsource lib="reform2-keyboard-rescue" part="C_Small-Device" description=""/>
+      <property name="Manufacturer" value="Taiyo Yuden"/>
+      <property name="Manufacturer_No" value="JMK107BB7475KA-T"/>
+      <property name="Sheetname" value="Reform KBD Backlight"/>
+      <property name="Sheetfile" value="reform2-keyboard-backlight.kicad_sch"/>
+      <sheetpath names="/Reform KBD Backlight/" tstamps="/00000000-0000-0000-0000-00005e649921/"/>
+      <tstamps>4a89606c-8a0d-48ac-9af4-0f6af411263a</tstamps>
+    </comp>
+    <comp ref="C115">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Taiyo Yuden</field>
+        <field name="Manufacturer_No">JMK107BB7475KA-T</field>
+      </fields>
+      <libsource lib="reform2-keyboard-rescue" part="C_Small-Device" description=""/>
+      <property name="Manufacturer" value="Taiyo Yuden"/>
+      <property name="Manufacturer_No" value="JMK107BB7475KA-T"/>
+      <property name="Sheetname" value="Reform KBD Backlight"/>
+      <property name="Sheetfile" value="reform2-keyboard-backlight.kicad_sch"/>
+      <sheetpath names="/Reform KBD Backlight/" tstamps="/00000000-0000-0000-0000-00005e649921/"/>
+      <tstamps>69812533-0abc-4fae-8623-eabd5e08605f</tstamps>
+    </comp>
+    <comp ref="C116">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Taiyo Yuden</field>
+        <field name="Manufacturer_No">JMK107BB7475KA-T</field>
+      </fields>
+      <libsource lib="reform2-keyboard-rescue" part="C_Small-Device" description=""/>
+      <property name="Manufacturer" value="Taiyo Yuden"/>
+      <property name="Manufacturer_No" value="JMK107BB7475KA-T"/>
+      <property name="Sheetname" value="Reform KBD Backlight"/>
+      <property name="Sheetfile" value="reform2-keyboard-backlight.kicad_sch"/>
+      <sheetpath names="/Reform KBD Backlight/" tstamps="/00000000-0000-0000-0000-00005e649921/"/>
+      <tstamps>96935002-765d-49ff-aa06-9f96482aec52</tstamps>
+    </comp>
+    <comp ref="D100">
+      <value>WS2812B</value>
+      <footprint>keebio:SK6812-MINI-E</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <property name="Sheetname" value="Reform KBD Backlight"/>
+      <property name="Sheetfile" value="reform2-keyboard-backlight.kicad_sch"/>
+      <sheetpath names="/Reform KBD Backlight/" tstamps="/00000000-0000-0000-0000-00005e649921/"/>
+      <tstamps>66d48148-8d03-4ab4-8735-72ca314c69c2</tstamps>
+    </comp>
+    <comp ref="D101">
+      <value>WS2812B</value>
+      <footprint>keebio:SK6812-MINI-E</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <property name="Sheetname" value="Reform KBD Backlight"/>
+      <property name="Sheetfile" value="reform2-keyboard-backlight.kicad_sch"/>
+      <sheetpath names="/Reform KBD Backlight/" tstamps="/00000000-0000-0000-0000-00005e649921/"/>
+      <tstamps>9c88beaf-b91b-4203-8a84-5dbe687206d4</tstamps>
+    </comp>
+    <comp ref="D102">
+      <value>WS2812B</value>
+      <footprint>keebio:SK6812-MINI-E</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <property name="Sheetname" value="Reform KBD Backlight"/>
+      <property name="Sheetfile" value="reform2-keyboard-backlight.kicad_sch"/>
+      <sheetpath names="/Reform KBD Backlight/" tstamps="/00000000-0000-0000-0000-00005e649921/"/>
+      <tstamps>4a547d84-0938-4b60-86e1-36477d5a54a0</tstamps>
+    </comp>
+    <comp ref="D103">
+      <value>WS2812B</value>
+      <footprint>keebio:SK6812-MINI-E</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <property name="Sheetname" value="Reform KBD Backlight"/>
+      <property name="Sheetfile" value="reform2-keyboard-backlight.kicad_sch"/>
+      <sheetpath names="/Reform KBD Backlight/" tstamps="/00000000-0000-0000-0000-00005e649921/"/>
+      <tstamps>706d9174-2f84-4b5a-8a99-29464249a040</tstamps>
+    </comp>
+    <comp ref="D104">
+      <value>WS2812B</value>
+      <footprint>keebio:SK6812-MINI-E</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <property name="Sheetname" value="Reform KBD Backlight"/>
+      <property name="Sheetfile" value="reform2-keyboard-backlight.kicad_sch"/>
+      <sheetpath names="/Reform KBD Backlight/" tstamps="/00000000-0000-0000-0000-00005e649921/"/>
+      <tstamps>33a31e54-8a86-4d04-a089-e90f9db721a6</tstamps>
+    </comp>
+    <comp ref="D105">
+      <value>WS2812B</value>
+      <footprint>keebio:SK6812-MINI-E</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <property name="Sheetname" value="Reform KBD Backlight"/>
+      <property name="Sheetfile" value="reform2-keyboard-backlight.kicad_sch"/>
+      <sheetpath names="/Reform KBD Backlight/" tstamps="/00000000-0000-0000-0000-00005e649921/"/>
+      <tstamps>8aeb5321-db1b-44ef-b3a1-37ebff569625</tstamps>
+    </comp>
+    <comp ref="D106">
+      <value>WS2812B</value>
+      <footprint>keebio:SK6812-MINI-E</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <property name="Sheetname" value="Reform KBD Backlight"/>
+      <property name="Sheetfile" value="reform2-keyboard-backlight.kicad_sch"/>
+      <sheetpath names="/Reform KBD Backlight/" tstamps="/00000000-0000-0000-0000-00005e649921/"/>
+      <tstamps>93cf075e-68bb-451c-a41d-a837088bdf43</tstamps>
+    </comp>
+    <comp ref="D110">
+      <value>WS2812B</value>
+      <footprint>keebio:SK6812-MINI-E</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <property name="Sheetname" value="Reform KBD Backlight"/>
+      <property name="Sheetfile" value="reform2-keyboard-backlight.kicad_sch"/>
+      <sheetpath names="/Reform KBD Backlight/" tstamps="/00000000-0000-0000-0000-00005e649921/"/>
+      <tstamps>bd78bb54-8c22-46c5-9afc-c23f6ec9968a</tstamps>
+    </comp>
+    <comp ref="D111">
+      <value>WS2812B</value>
+      <footprint>keebio:SK6812-MINI-E</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <property name="Sheetname" value="Reform KBD Backlight"/>
+      <property name="Sheetfile" value="reform2-keyboard-backlight.kicad_sch"/>
+      <sheetpath names="/Reform KBD Backlight/" tstamps="/00000000-0000-0000-0000-00005e649921/"/>
+      <tstamps>d9c31536-6b7a-4c85-8100-d30fc0b43dce</tstamps>
+    </comp>
+    <comp ref="D112">
+      <value>WS2812B</value>
+      <footprint>keebio:SK6812-MINI-E</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <property name="Sheetname" value="Reform KBD Backlight"/>
+      <property name="Sheetfile" value="reform2-keyboard-backlight.kicad_sch"/>
+      <sheetpath names="/Reform KBD Backlight/" tstamps="/00000000-0000-0000-0000-00005e649921/"/>
+      <tstamps>9297a8b6-3258-49cf-a71f-750b78e32de3</tstamps>
+    </comp>
+    <comp ref="D113">
+      <value>WS2812B</value>
+      <footprint>keebio:SK6812-MINI-E</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <property name="Sheetname" value="Reform KBD Backlight"/>
+      <property name="Sheetfile" value="reform2-keyboard-backlight.kicad_sch"/>
+      <sheetpath names="/Reform KBD Backlight/" tstamps="/00000000-0000-0000-0000-00005e649921/"/>
+      <tstamps>708f5643-b817-49e0-bca3-ea19845bdfda</tstamps>
+    </comp>
+    <comp ref="D114">
+      <value>WS2812B</value>
+      <footprint>keebio:SK6812-MINI-E</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <property name="Sheetname" value="Reform KBD Backlight"/>
+      <property name="Sheetfile" value="reform2-keyboard-backlight.kicad_sch"/>
+      <sheetpath names="/Reform KBD Backlight/" tstamps="/00000000-0000-0000-0000-00005e649921/"/>
+      <tstamps>b1460646-ed26-497d-9577-19c88f2c1b76</tstamps>
+    </comp>
+    <comp ref="D115">
+      <value>WS2812B</value>
+      <footprint>keebio:SK6812-MINI-E</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <property name="Sheetname" value="Reform KBD Backlight"/>
+      <property name="Sheetfile" value="reform2-keyboard-backlight.kicad_sch"/>
+      <sheetpath names="/Reform KBD Backlight/" tstamps="/00000000-0000-0000-0000-00005e649921/"/>
+      <tstamps>8eedfec9-0e81-495b-abac-c6a6df2e4601</tstamps>
+    </comp>
+    <comp ref="D116">
+      <value>WS2812B</value>
+      <footprint>keebio:SK6812-MINI-E</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <property name="Sheetname" value="Reform KBD Backlight"/>
+      <property name="Sheetfile" value="reform2-keyboard-backlight.kicad_sch"/>
+      <sheetpath names="/Reform KBD Backlight/" tstamps="/00000000-0000-0000-0000-00005e649921/"/>
+      <tstamps>8746642b-9032-48dd-81aa-557cf1a50564</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_01x03</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="Reform KBD Backlight"/>
+      <property name="Sheetfile" value="reform2-keyboard-backlight.kicad_sch"/>
+      <sheetpath names="/Reform KBD Backlight/" tstamps="/00000000-0000-0000-0000-00005e649921/"/>
+      <tstamps>fce1d445-2edd-4de8-bcb9-ec5b08b72435</tstamps>
+    </comp>
+    <comp ref="J100">
+      <value>Conn_01x03</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="Reform KBD Backlight"/>
+      <property name="Sheetfile" value="reform2-keyboard-backlight.kicad_sch"/>
+      <sheetpath names="/Reform KBD Backlight/" tstamps="/00000000-0000-0000-0000-00005e649921/"/>
+      <tstamps>7ff9d7ea-cfcf-42af-a9f0-baf57fb92662</tstamps>
+    </comp>
+    <comp ref="R100">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Vishay Dale</field>
+        <field name="Manufacturer_No">CRCW06030000Z0EAC</field>
+      </fields>
+      <libsource lib="reform2-keyboard-rescue" part="R_Small-Device" description=""/>
+      <property name="Manufacturer" value="Vishay Dale"/>
+      <property name="Manufacturer_No" value="CRCW06030000Z0EAC"/>
+      <property name="Sheetname" value="Reform KBD Backlight"/>
+      <property name="Sheetfile" value="reform2-keyboard-backlight.kicad_sch"/>
+      <sheetpath names="/Reform KBD Backlight/" tstamps="/00000000-0000-0000-0000-00005e649921/"/>
+      <tstamps>0b29d6a0-ee5d-4be7-8d83-97ebbd1f460c</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x03">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x06">
+      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LED" part="WS2812B">
+      <description>RGB LED with integrated controller</description>
+      <docs>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</docs>
+      <footprints>
+        <fp>LED*WS2812*PLCC*5.0x5.0mm*P3.2mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">WS2812B</field>
+        <field name="Footprint">LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</field>
+        <field name="Datasheet">https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="DOUT" type="output"/>
+        <pin num="3" name="VSS" type="power_in"/>
+        <pin num="4" name="DIN" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="mntcomp-keyboard" part="Choc">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">Choc</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="reform2-keyboard-rescue" part="ATmega32U4-AU-MCU_Microchip_ATmega">
+      <footprints>
+        <fp>TQFP*10x10mm*P0.8mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATmega32U4-AU-MCU_Microchip_ATmega</field>
+        <field name="Footprint">Package_QFP:TQFP-44_10x10mm_P0.8mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PE6" type="tri_state"/>
+        <pin num="2" name="UVCC" type="power_in"/>
+        <pin num="3" name="D-" type="bidirectional"/>
+        <pin num="4" name="D+" type="bidirectional"/>
+        <pin num="5" name="UGND" type="passive"/>
+        <pin num="6" name="UCAP" type="passive"/>
+        <pin num="7" name="VBUS" type="input"/>
+        <pin num="8" name="PB0" type="tri_state"/>
+        <pin num="9" name="PB1" type="tri_state"/>
+        <pin num="10" name="PB2" type="tri_state"/>
+        <pin num="11" name="PB3" type="tri_state"/>
+        <pin num="12" name="PB7" type="tri_state"/>
+        <pin num="13" name="~{RESET}" type="input"/>
+        <pin num="14" name="VCC" type="power_in"/>
+        <pin num="15" name="GND" type="power_in"/>
+        <pin num="16" name="XTAL2" type="output"/>
+        <pin num="17" name="XTAL1" type="input"/>
+        <pin num="18" name="PD0" type="tri_state"/>
+        <pin num="19" name="PD1" type="tri_state"/>
+        <pin num="20" name="PD2" type="tri_state"/>
+        <pin num="21" name="PD3" type="tri_state"/>
+        <pin num="22" name="PD5" type="tri_state"/>
+        <pin num="23" name="GND" type="passive"/>
+        <pin num="24" name="AVCC" type="power_in"/>
+        <pin num="25" name="PD4" type="tri_state"/>
+        <pin num="26" name="PD6" type="tri_state"/>
+        <pin num="27" name="PD7" type="tri_state"/>
+        <pin num="28" name="PB4" type="tri_state"/>
+        <pin num="29" name="PB5" type="tri_state"/>
+        <pin num="30" name="PB6" type="tri_state"/>
+        <pin num="31" name="PC6" type="tri_state"/>
+        <pin num="32" name="PC7" type="tri_state"/>
+        <pin num="33" name="~{HWB}/PE2" type="tri_state"/>
+        <pin num="34" name="VCC" type="passive"/>
+        <pin num="35" name="GND" type="passive"/>
+        <pin num="36" name="PF7" type="tri_state"/>
+        <pin num="37" name="PF6" type="tri_state"/>
+        <pin num="38" name="PF5" type="tri_state"/>
+        <pin num="39" name="PF4" type="tri_state"/>
+        <pin num="40" name="PF1" type="tri_state"/>
+        <pin num="41" name="PF0" type="tri_state"/>
+        <pin num="42" name="AREF" type="passive"/>
+        <pin num="43" name="GND" type="passive"/>
+        <pin num="44" name="AVCC" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="reform2-keyboard-rescue" part="C_Small-Device">
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="reform2-keyboard-rescue" part="Crystal_GND24-Device">
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal_GND24-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="reform2-keyboard-rescue" part="D_Small-Device">
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Small-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="reform2-keyboard-rescue" part="MCP1700-3302E_SOT23-Regulator_Linear">
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP1700-3302E_SOT23-Regulator_Linear</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="reform2-keyboard-rescue" part="MountingHole-Mechanical">
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole-Mechanical</field>
+      </fields>
+    </libpart>
+    <libpart lib="reform2-keyboard-rescue" part="MountingHole_Pad-Mechanical">
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad-Mechanical</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="reform2-keyboard-rescue" part="R_Small-Device">
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="reform2-keyboard-rescue" part="SW_DIP_x01-Switch">
+      <footprints>
+        <fp>SW?DIP?x1*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_DIP_x01-Switch</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="reform2-keyboard-rescue" part="SW_SPST-Switch">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_SPST-Switch</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>/usr/share/kicad/symbols//Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="LED">
+      <uri>/usr/share/kicad/symbols//LED.kicad_sym</uri>
+    </library>
+    <library logical="mntcomp-keyboard">
+      <uri>/home/myles/src/public/reform/reform2-keyboard-pcb/mntcomp-keyboard.lib</uri>
+    </library>
+    <library logical="reform2-keyboard-rescue">
+      <uri>/home/myles/src/public/reform/reform2-keyboard-pcb/reform2-keyboard-rescue.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U1" pin="24" pinfunction="AVCC" pintype="power_in"/>
+      <node ref="U1" pin="34" pinfunction="VCC" pintype="passive"/>
+      <node ref="U1" pin="44" pinfunction="AVCC" pintype="passive"/>
+      <node ref="U3" pin="2" pinfunction="VO" pintype="power_out"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="C100" pin="1" pintype="passive"/>
+      <node ref="C101" pin="1" pintype="passive"/>
+      <node ref="C102" pin="1" pintype="passive"/>
+      <node ref="C103" pin="1" pintype="passive"/>
+      <node ref="C104" pin="1" pintype="passive"/>
+      <node ref="C105" pin="1" pintype="passive"/>
+      <node ref="C106" pin="1" pintype="passive"/>
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C110" pin="1" pintype="passive"/>
+      <node ref="C111" pin="1" pintype="passive"/>
+      <node ref="C112" pin="1" pintype="passive"/>
+      <node ref="C113" pin="1" pintype="passive"/>
+      <node ref="C114" pin="1" pintype="passive"/>
+      <node ref="C115" pin="1" pintype="passive"/>
+      <node ref="C116" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="D100" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D101" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D102" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D103" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D104" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D105" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D106" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D110" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D111" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D112" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D113" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D114" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D115" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D116" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J100" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="UVCC" pintype="power_in"/>
+      <node ref="U1" pin="7" pinfunction="VBUS" pintype="input"/>
+      <node ref="U3" pin="3" pinfunction="VI" pintype="power_in"/>
+    </net>
+    <net code="3" name="COL1">
+      <node ref="J8" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW72" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="PB7" pintype="tri_state"/>
+    </net>
+    <net code="4" name="COL2">
+      <node ref="J8" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="SW10" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW11" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW7" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW8" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW9" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="36" pinfunction="PF7" pintype="tri_state"/>
+    </net>
+    <net code="5" name="COL3">
+      <node ref="J8" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="SW13" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW14" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW15" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW16" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW17" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="PB2" pintype="tri_state"/>
+    </net>
+    <net code="6" name="COL4">
+      <node ref="J8" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="SW19" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW20" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW21" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW22" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW23" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="26" pinfunction="PD6" pintype="tri_state"/>
+    </net>
+    <net code="7" name="COL5">
+      <node ref="J8" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="SW25" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW26" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW27" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW28" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW29" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="PB3" pintype="tri_state"/>
+    </net>
+    <net code="8" name="COL6">
+      <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="SW31" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW32" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW33" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW34" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW35" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="PB1" pintype="tri_state"/>
+    </net>
+    <net code="9" name="COL7">
+      <node ref="J9" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="SW37" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW38" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW39" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW40" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW41" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="PB0" pintype="tri_state"/>
+    </net>
+    <net code="10" name="COL8">
+      <node ref="J9" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="SW43" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW44" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW45" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW46" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW47" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="PE6" pintype="tri_state"/>
+    </net>
+    <net code="11" name="COL9">
+      <node ref="J9" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="SW49" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW50" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW51" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW52" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW53" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="41" pinfunction="PF0" pintype="tri_state"/>
+    </net>
+    <net code="12" name="COL10">
+      <node ref="J9" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="SW55" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW56" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW57" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW58" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW59" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="40" pinfunction="PF1" pintype="tri_state"/>
+    </net>
+    <net code="13" name="COL11">
+      <node ref="J9" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="SW61" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW62" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW63" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW64" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW65" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="39" pinfunction="PF4" pintype="tri_state"/>
+    </net>
+    <net code="14" name="COL12">
+      <node ref="J9" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="SW67" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW68" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW69" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW70" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW71" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW73" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="37" pinfunction="PF6" pintype="tri_state"/>
+    </net>
+    <net code="15" name="D+">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="16" name="D-">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="17" name="DISP_SCL">
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J6" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U1" pin="18" pinfunction="PD0" pintype="tri_state"/>
+    </net>
+    <net code="18" name="DISP_SDA">
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J6" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U1" pin="19" pinfunction="PD1" pintype="tri_state"/>
+    </net>
+    <net code="19" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C100" pin="2" pintype="passive"/>
+      <node ref="C101" pin="2" pintype="passive"/>
+      <node ref="C102" pin="2" pintype="passive"/>
+      <node ref="C103" pin="2" pintype="passive"/>
+      <node ref="C104" pin="2" pintype="passive"/>
+      <node ref="C105" pin="2" pintype="passive"/>
+      <node ref="C106" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C110" pin="2" pintype="passive"/>
+      <node ref="C111" pin="2" pintype="passive"/>
+      <node ref="C112" pin="2" pintype="passive"/>
+      <node ref="C113" pin="2" pintype="passive"/>
+      <node ref="C114" pin="2" pintype="passive"/>
+      <node ref="C115" pin="2" pintype="passive"/>
+      <node ref="C116" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D100" pin="3" pinfunction="VSS" pintype="power_in"/>
+      <node ref="D101" pin="3" pinfunction="VSS" pintype="power_in"/>
+      <node ref="D102" pin="3" pinfunction="VSS" pintype="power_in"/>
+      <node ref="D103" pin="3" pinfunction="VSS" pintype="power_in"/>
+      <node ref="D104" pin="3" pinfunction="VSS" pintype="power_in"/>
+      <node ref="D105" pin="3" pinfunction="VSS" pintype="power_in"/>
+      <node ref="D106" pin="3" pinfunction="VSS" pintype="power_in"/>
+      <node ref="D110" pin="3" pinfunction="VSS" pintype="power_in"/>
+      <node ref="D111" pin="3" pinfunction="VSS" pintype="power_in"/>
+      <node ref="D112" pin="3" pinfunction="VSS" pintype="power_in"/>
+      <node ref="D113" pin="3" pinfunction="VSS" pintype="power_in"/>
+      <node ref="D114" pin="3" pinfunction="VSS" pintype="power_in"/>
+      <node ref="D115" pin="3" pinfunction="VSS" pintype="power_in"/>
+      <node ref="D116" pin="3" pinfunction="VSS" pintype="power_in"/>
+      <node ref="H1" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H2" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H3" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H4" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H5" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H6" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J100" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J4" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J5" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="SW83" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="SW84" pin="2" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="23" pinfunction="GND" pintype="passive"/>
+      <node ref="U1" pin="35" pinfunction="GND" pintype="passive"/>
+      <node ref="U1" pin="43" pinfunction="GND" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="UGND" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="Y1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="Y1" pin="4" pinfunction="4" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="XTAL2" pintype="output"/>
+      <node ref="Y1" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(C2-Pad1)">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="17" pinfunction="XTAL1" pintype="input"/>
+      <node ref="Y1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(C3-Pad1)">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="UCAP" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="25" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW3" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="26" name="Net-(D4-Pad2)">
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW4" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="27" name="Net-(D5-Pad2)">
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW5" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="28" name="Net-(D7-Pad2)">
+      <node ref="D7" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW7" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="29" name="Net-(D8-Pad2)">
+      <node ref="D8" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW8" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="30" name="Net-(D9-Pad2)">
+      <node ref="D9" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW9" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="31" name="Net-(D10-Pad2)">
+      <node ref="D10" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW10" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="32" name="Net-(D11-Pad2)">
+      <node ref="D11" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW11" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="33" name="Net-(D13-Pad2)">
+      <node ref="D13" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW13" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="34" name="Net-(D14-Pad2)">
+      <node ref="D14" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW14" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="35" name="Net-(D15-Pad2)">
+      <node ref="D15" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW15" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="36" name="Net-(D16-Pad2)">
+      <node ref="D16" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW16" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="37" name="Net-(D17-Pad2)">
+      <node ref="D17" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW17" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="38" name="Net-(D19-Pad2)">
+      <node ref="D19" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW19" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="39" name="Net-(D20-Pad2)">
+      <node ref="D20" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW20" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="40" name="Net-(D21-Pad2)">
+      <node ref="D21" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW21" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="41" name="Net-(D22-Pad2)">
+      <node ref="D22" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW22" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="42" name="Net-(D23-Pad2)">
+      <node ref="D23" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW23" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="43" name="Net-(D25-Pad2)">
+      <node ref="D25" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW25" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="44" name="Net-(D26-Pad2)">
+      <node ref="D26" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW26" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="45" name="Net-(D27-Pad2)">
+      <node ref="D27" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW27" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="46" name="Net-(D28-Pad2)">
+      <node ref="D28" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW28" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="47" name="Net-(D29-Pad2)">
+      <node ref="D29" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW29" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="48" name="Net-(D31-Pad2)">
+      <node ref="D31" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW31" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="49" name="Net-(D32-Pad2)">
+      <node ref="D32" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW32" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="50" name="Net-(D33-Pad2)">
+      <node ref="D33" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW33" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="51" name="Net-(D34-Pad2)">
+      <node ref="D34" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW34" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="52" name="Net-(D35-Pad2)">
+      <node ref="D35" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW35" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="53" name="Net-(D37-Pad2)">
+      <node ref="D37" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW37" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="54" name="Net-(D38-Pad2)">
+      <node ref="D38" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW38" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="55" name="Net-(D39-Pad2)">
+      <node ref="D39" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW39" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="56" name="Net-(D40-Pad2)">
+      <node ref="D40" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW40" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="57" name="Net-(D41-Pad2)">
+      <node ref="D41" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW41" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="58" name="Net-(D43-Pad2)">
+      <node ref="D43" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW43" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="59" name="Net-(D44-Pad2)">
+      <node ref="D44" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW44" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="60" name="Net-(D45-Pad2)">
+      <node ref="D45" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW45" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="61" name="Net-(D46-Pad2)">
+      <node ref="D46" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW46" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="62" name="Net-(D47-Pad2)">
+      <node ref="D47" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW47" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="63" name="Net-(D49-Pad2)">
+      <node ref="D49" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW49" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="64" name="Net-(D50-Pad2)">
+      <node ref="D50" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW50" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="65" name="Net-(D51-Pad2)">
+      <node ref="D51" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW51" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="66" name="Net-(D52-Pad2)">
+      <node ref="D52" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW52" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="67" name="Net-(D53-Pad2)">
+      <node ref="D53" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW53" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="68" name="Net-(D55-Pad2)">
+      <node ref="D55" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW55" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="69" name="Net-(D56-Pad2)">
+      <node ref="D56" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW56" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="70" name="Net-(D57-Pad2)">
+      <node ref="D57" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW57" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="71" name="Net-(D58-Pad2)">
+      <node ref="D58" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW58" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="72" name="Net-(D59-Pad2)">
+      <node ref="D59" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW59" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="73" name="Net-(D61-Pad2)">
+      <node ref="D61" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW61" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="74" name="Net-(D62-Pad2)">
+      <node ref="D62" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW62" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="75" name="Net-(D63-Pad2)">
+      <node ref="D63" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW63" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="76" name="Net-(D64-Pad2)">
+      <node ref="D64" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW64" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="77" name="Net-(D65-Pad2)">
+      <node ref="D65" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW65" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="78" name="Net-(D67-Pad2)">
+      <node ref="D67" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW67" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="79" name="Net-(D68-Pad2)">
+      <node ref="D68" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW68" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="80" name="Net-(D69-Pad2)">
+      <node ref="D69" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW69" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="81" name="Net-(D70-Pad2)">
+      <node ref="D70" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW70" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="82" name="Net-(D71-Pad2)">
+      <node ref="D71" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW71" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="83" name="Net-(D72-Pad2)">
+      <node ref="D72" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW72" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="84" name="Net-(D73-Pad2)">
+      <node ref="D73" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW73" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="85" name="Net-(D100-Pad2)">
+      <node ref="D100" pin="2" pinfunction="DOUT" pintype="output"/>
+      <node ref="D101" pin="4" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="86" name="Net-(D101-Pad2)">
+      <node ref="D101" pin="2" pinfunction="DOUT" pintype="output"/>
+      <node ref="D102" pin="4" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="87" name="Net-(D102-Pad2)">
+      <node ref="D102" pin="2" pinfunction="DOUT" pintype="output"/>
+      <node ref="D103" pin="4" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="88" name="Net-(D103-Pad2)">
+      <node ref="D103" pin="2" pinfunction="DOUT" pintype="output"/>
+      <node ref="D104" pin="4" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="89" name="Net-(D104-Pad2)">
+      <node ref="D104" pin="2" pinfunction="DOUT" pintype="output"/>
+      <node ref="D105" pin="4" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="90" name="Net-(D105-Pad2)">
+      <node ref="D105" pin="2" pinfunction="DOUT" pintype="output"/>
+      <node ref="D106" pin="4" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="91" name="Net-(D110-Pad2)">
+      <node ref="D110" pin="2" pinfunction="DOUT" pintype="output"/>
+      <node ref="D111" pin="4" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="92" name="Net-(D111-Pad2)">
+      <node ref="D111" pin="2" pinfunction="DOUT" pintype="output"/>
+      <node ref="D112" pin="4" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="93" name="Net-(D112-Pad2)">
+      <node ref="D112" pin="2" pinfunction="DOUT" pintype="output"/>
+      <node ref="D113" pin="4" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="94" name="Net-(D113-Pad2)">
+      <node ref="D113" pin="2" pinfunction="DOUT" pintype="output"/>
+      <node ref="D114" pin="4" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="95" name="Net-(D114-Pad2)">
+      <node ref="D114" pin="2" pinfunction="DOUT" pintype="output"/>
+      <node ref="D115" pin="4" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="96" name="Net-(D115-Pad2)">
+      <node ref="D115" pin="2" pinfunction="DOUT" pintype="output"/>
+      <node ref="D116" pin="4" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="97" name="Net-(R4-Pad1)">
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U1" pin="42" pinfunction="AREF" pintype="passive"/>
+    </net>
+    <net code="98" name="PROG">
+      <node ref="SW84" pin="1" pintype="passive"/>
+      <node ref="U1" pin="33" pinfunction="~{HWB}/PE2" pintype="tri_state"/>
+    </net>
+    <net code="99" name="RESET">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="SW83" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="~{RESET}" pintype="input"/>
+    </net>
+    <net code="100" name="RGB">
+      <node ref="R100" pin="2" pintype="passive"/>
+      <node ref="U1" pin="22" pinfunction="PD5" pintype="tri_state"/>
+    </net>
+    <net code="101" name="RGBI">
+      <node ref="D100" pin="4" pinfunction="DIN" pintype="input"/>
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R100" pin="1" pintype="passive"/>
+    </net>
+    <net code="102" name="RGBO1">
+      <node ref="D106" pin="2" pinfunction="DOUT" pintype="output"/>
+      <node ref="D110" pin="4" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="103" name="RGBO2">
+      <node ref="D116" pin="2" pinfunction="DOUT" pintype="output"/>
+      <node ref="J100" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="104" name="ROW1">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D13" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D19" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D25" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D31" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D37" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D43" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D49" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D55" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D61" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D67" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D7" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J10" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U1" pin="27" pinfunction="PD7" pintype="tri_state"/>
+    </net>
+    <net code="105" name="ROW2">
+      <node ref="D14" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D20" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D26" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D32" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D38" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D44" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D50" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D56" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D62" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D68" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D8" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J10" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U1" pin="28" pinfunction="PB4" pintype="tri_state"/>
+    </net>
+    <net code="106" name="ROW3">
+      <node ref="D15" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D21" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D27" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D33" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D39" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D45" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D51" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D57" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D63" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D69" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D9" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J10" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U1" pin="29" pinfunction="PB5" pintype="tri_state"/>
+    </net>
+    <net code="107" name="ROW4">
+      <node ref="D10" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D16" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D22" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D28" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D34" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D40" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D46" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D52" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D58" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D64" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D70" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J10" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U1" pin="30" pinfunction="PB6" pintype="tri_state"/>
+    </net>
+    <net code="108" name="ROW5">
+      <node ref="D11" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D17" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D23" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D29" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D35" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D41" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D47" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D53" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D59" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D65" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D71" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J10" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="U1" pin="31" pinfunction="PC6" pintype="tri_state"/>
+    </net>
+    <net code="109" name="ROW6">
+      <node ref="D72" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D73" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J10" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="U1" pin="32" pinfunction="PC7" pintype="tri_state"/>
+    </net>
+    <net code="110" name="UART_RX">
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U1" pin="20" pinfunction="PD2" pintype="tri_state"/>
+    </net>
+    <net code="111" name="UART_TX">
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U1" pin="21" pinfunction="PD3" pintype="tri_state"/>
+    </net>
+    <net code="112" name="UD+">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="D+" pintype="bidirectional"/>
+    </net>
+    <net code="113" name="UD-">
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="D-" pintype="bidirectional"/>
+    </net>
+    <net code="114" name="unconnected-(U1-Pad25)">
+      <node ref="U1" pin="25" pinfunction="PD4" pintype="tri_state+no_connect"/>
+    </net>
+    <net code="115" name="unconnected-(U1-Pad38)">
+      <node ref="U1" pin="38" pinfunction="PF5" pintype="tri_state+no_connect"/>
+    </net>
+  </nets>
+</export>

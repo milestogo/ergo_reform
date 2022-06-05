@@ -1,0 +1,1098 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 3
+Title "MNT Reform 2 Keyboard"
+Date "2020-07-16"
+Rev "2.0D-5"
+Comp "Copyright 2017-2020 MNT Research GmbH"
+Comment1 "https://mntre.com"
+Comment2 "Engineer: Lukas F. Hartmann"
+Comment3 "License: CERN-OHL-S 2.0"
+Comment4 ""
+$EndDescr
+$Comp
+L power:GND #PWR07
+U 1 1 5A20720B
+P 3450 4850
+F 0 "#PWR07" H 3450 4600 50  0001 C CNN
+F 1 "GND" H 3450 4700 50  0000 C CNN
+F 2 "" H 3450 4850 50  0001 C CNN
+F 3 "" H 3450 4850 50  0001 C CNN
+	1    3450 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L reform2-keyboard-rescue:C_Small-Device C1
+U 1 1 5A2073AA
+P 2050 3850
+AR Path="/5A2073AA" Ref="C1"  Part="1" 
+AR Path="/5A2069AE/5A2073AA" Ref="C1"  Part="1" 
+F 0 "C1" H 2060 3920 50  0000 L CNN
+F 1 "18pF" H 2060 3770 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2050 3850 50  0001 C CNN
+F 3 "" H 2050 3850 50  0001 C CNN
+F 4 "Yageo" H 2050 3850 50  0001 C CNN "Manufacturer"
+F 5 "CC0603JRNPO9BN180" H 2050 3850 50  0001 C CNN "Manufacturer_No"
+	1    2050 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L reform2-keyboard-rescue:C_Small-Device C2
+U 1 1 5A2073F7
+P 2650 3850
+AR Path="/5A2073F7" Ref="C2"  Part="1" 
+AR Path="/5A2069AE/5A2073F7" Ref="C2"  Part="1" 
+F 0 "C2" H 2660 3920 50  0000 L CNN
+F 1 "18pF" H 2660 3770 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2650 3850 50  0001 C CNN
+F 3 "" H 2650 3850 50  0001 C CNN
+F 4 "Yageo" H 2650 3850 50  0001 C CNN "Manufacturer"
+F 5 "CC0603JRNPO9BN180" H 2650 3850 50  0001 C CNN "Manufacturer_No"
+	1    2650 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 5A207477
+P 2350 4100
+F 0 "#PWR03" H 2350 3850 50  0001 C CNN
+F 1 "GND" H 2350 3950 50  0000 C CNN
+F 2 "" H 2350 4100 50  0001 C CNN
+F 3 "" H 2350 4100 50  0001 C CNN
+	1    2350 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L reform2-keyboard-rescue:C_Small-Device C3
+U 1 1 5A20764E
+P 3450 4700
+AR Path="/5A20764E" Ref="C3"  Part="1" 
+AR Path="/5A2069AE/5A20764E" Ref="C3"  Part="1" 
+F 0 "C3" H 3460 4770 50  0000 L CNN
+F 1 "1uF" H 3460 4620 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3450 4700 50  0001 C CNN
+F 3 "" H 3450 4700 50  0001 C CNN
+F 4 "TDK" H 3450 4700 50  0001 C CNN "Manufacturer"
+F 5 "C1608X8L1C105K080AC" H 3450 4700 50  0001 C CNN "Manufacturer_No"
+	1    3450 4700
+	1    0    0    -1  
+$EndComp
+Text GLabel 3000 4150 0    60   Input ~ 0
+D+
+Text GLabel 3000 4250 0    60   Input ~ 0
+D-
+$Comp
+L power:GND #PWR010
+U 1 1 5A207A65
+P 4100 6550
+F 0 "#PWR010" H 4100 6300 50  0001 C CNN
+F 1 "GND" H 4100 6400 50  0000 C CNN
+F 2 "" H 4100 6550 50  0001 C CNN
+F 3 "" H 4100 6550 50  0001 C CNN
+	1    4100 6550
+	1    0    0    -1  
+$EndComp
+Text GLabel 3300 3150 0    60   Input ~ 0
+RESET
+Text GLabel 4800 3750 2    60   Input ~ 0
+ROW1
+Text GLabel 4800 3650 2    60   Input ~ 0
+ROW2
+Text GLabel 4800 3550 2    60   Input ~ 0
+ROW3
+Text GLabel 4800 5050 2    60   Input ~ 0
+ROW4
+Text GLabel 4800 4950 2    60   Input ~ 0
+ROW5
+Text GLabel 4800 4850 2    60   Input ~ 0
+COL1
+Text GLabel 4800 6050 2    60   Input ~ 0
+COL2
+Text GLabel 4800 5350 2    60   Input ~ 0
+COL3
+Text GLabel 4800 4150 2    60   Input ~ 0
+COL4
+Text GLabel 4800 3450 2    60   Input ~ 0
+COL5
+Text GLabel 4800 3350 2    60   Input ~ 0
+COL6
+Text GLabel 4800 3250 2    60   Input ~ 0
+COL7
+Text GLabel 4800 3150 2    60   Input ~ 0
+COL8
+Text GLabel 4800 5550 2    60   Input ~ 0
+COL9
+Text GLabel 4800 5650 2    60   Input ~ 0
+COL10
+Text GLabel 4800 5750 2    60   Input ~ 0
+COL11
+Text GLabel 4800 5850 2    60   Input ~ 0
+COL12
+$Comp
+L reform2-keyboard-rescue:R_Small-Device R2
+U 1 1 5A213EDF
+P 3150 4250
+F 0 "R2" V 3250 4200 50  0000 L CNN
+F 1 "22" V 3150 4200 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3150 4250 50  0001 C CNN
+F 3 "" H 3150 4250 50  0001 C CNN
+F 4 "Vishay Dale" H 3150 4250 50  0001 C CNN "Manufacturer"
+F 5 "CRCW06030000Z0EAC" H 3150 4250 50  0001 C CNN "Manufacturer_No"
+	1    3150 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L reform2-keyboard-rescue:R_Small-Device R1
+U 1 1 5A213F64
+P 3150 4150
+F 0 "R1" V 3050 4100 50  0000 L CNN
+F 1 "22" V 3150 4100 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3150 4150 50  0001 C CNN
+F 3 "" H 3150 4150 50  0001 C CNN
+F 4 "Vishay Dale" H 3150 4150 50  0001 C CNN "Manufacturer"
+F 5 "CRCW06030000Z0EAC" H 3150 4150 50  0001 C CNN "Manufacturer_No"
+	1    3150 4150
+	0    1    1    0   
+$EndComp
+$Comp
+L reform2-keyboard-rescue:C_Small-Device C5
+U 1 1 5A2148C0
+P 4800 2400
+AR Path="/5A2148C0" Ref="C5"  Part="1" 
+AR Path="/5A2069AE/5A2148C0" Ref="C5"  Part="1" 
+F 0 "C5" H 4810 2470 50  0000 L CNN
+F 1 "1uF" H 4810 2320 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4800 2400 50  0001 C CNN
+F 3 "" H 4800 2400 50  0001 C CNN
+F 4 "TDK" H 4800 2400 50  0001 C CNN "Manufacturer"
+F 5 "C1608X8L1C105K080AC" H 4800 2400 50  0001 C CNN "Manufacturer_No"
+	1    4800 2400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L reform2-keyboard-rescue:C_Small-Device C4
+U 1 1 5A214A09
+P 3800 2400
+AR Path="/5A214A09" Ref="C4"  Part="1" 
+AR Path="/5A2069AE/5A214A09" Ref="C4"  Part="1" 
+F 0 "C4" H 3810 2470 50  0000 L CNN
+F 1 "0.1uF" H 3810 2320 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3800 2400 50  0001 C CNN
+F 3 "" H 3800 2400 50  0001 C CNN
+F 4 "Yageo" H 3800 2400 50  0001 C CNN "Manufacturer"
+F 5 "CC0603JPX7R9BB104" H 3800 2400 50  0001 C CNN "Manufacturer_No"
+	1    3800 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR012
+U 1 1 5A214AB7
+P 5050 2550
+F 0 "#PWR012" H 5050 2300 50  0001 C CNN
+F 1 "GND" H 5050 2400 50  0000 C CNN
+F 2 "" H 5050 2550 50  0001 C CNN
+F 3 "" H 5050 2550 50  0001 C CNN
+	1    5050 2550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR08
+U 1 1 5A214B4F
+P 3800 2550
+F 0 "#PWR08" H 3800 2300 50  0001 C CNN
+F 1 "GND" H 3800 2400 50  0000 C CNN
+F 2 "" H 3800 2550 50  0001 C CNN
+F 3 "" H 3800 2550 50  0001 C CNN
+	1    3800 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR09
+U 1 1 5A635C68
+P 4100 2150
+F 0 "#PWR09" H 4100 2000 50  0001 C CNN
+F 1 "+5V" H 4100 2290 50  0000 C CNN
+F 2 "" H 4100 2150 50  0001 C CNN
+F 3 "" H 4100 2150 50  0001 C CNN
+	1    4100 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L reform2-keyboard-rescue:R_Small-Device R3
+U 1 1 5A21443A
+P 3400 2800
+F 0 "R3" H 3430 2820 50  0000 L CNN
+F 1 "10k" H 3430 2760 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3400 2800 50  0001 C CNN
+F 3 "" H 3400 2800 50  0001 C CNN
+F 4 "Yageo" H 3400 2800 50  0001 C CNN "Manufacturer"
+F 5 "RC0603FR-0710KL" H 3400 2800 50  0001 C CNN "Manufacturer_No"
+	1    3400 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L reform2-keyboard-rescue:Crystal_GND24-Device Y1
+U 1 1 5A6378F6
+P 2350 3550
+AR Path="/5A6378F6" Ref="Y1"  Part="1" 
+AR Path="/5A2069AE/5A6378F6" Ref="Y1"  Part="1" 
+F 0 "Y1" H 2475 3750 50  0000 L CNN
+F 1 "16MHz" H 2475 3675 50  0000 L CNN
+F 2 "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm" H 2350 3550 50  0001 C CNN
+F 3 "" H 2350 3550 50  0001 C CNN
+F 4 "Abracon" H 2350 3550 50  0001 C CNN "Manufacturer"
+F 5 "ABM8AIG-16.000MHz-4-T" H 2350 3550 50  0001 C CNN "Manufacturer_No"
+	1    2350 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 3550 2650 3750
+Wire Wire Line
+	2050 3250 2050 3550
+Wire Wire Line
+	2050 4050 2350 4050
+Wire Wire Line
+	2350 3750 2350 3800
+Wire Wire Line
+	2650 4050 2650 3950
+Connection ~ 2350 4050
+Wire Wire Line
+	3450 4850 3450 4800
+Wire Wire Line
+	3050 4250 3000 4250
+Wire Wire Line
+	3050 4150 3000 4150
+Wire Wire Line
+	3400 2900 3400 3150
+Wire Wire Line
+	3300 3150 3400 3150
+Connection ~ 3400 3150
+Wire Wire Line
+	3800 2550 3800 2500
+Wire Wire Line
+	4800 2300 4800 2250
+Wire Wire Line
+	2650 3350 2650 3250
+Wire Wire Line
+	2650 3250 2050 3250
+Connection ~ 2050 3550
+Connection ~ 2650 3550
+Wire Wire Line
+	2050 4050 2050 3950
+Wire Wire Line
+	2500 3550 2650 3550
+Wire Wire Line
+	2200 3550 2050 3550
+Wire Wire Line
+	2350 3350 2150 3350
+Wire Wire Line
+	2150 3350 2150 3800
+Wire Wire Line
+	2150 3800 2350 3800
+Connection ~ 2350 3800
+Wire Wire Line
+	2350 4050 2650 4050
+Wire Wire Line
+	2350 4050 2350 4100
+Wire Wire Line
+	3400 3150 3600 3150
+Wire Wire Line
+	2050 3550 2050 3750
+Wire Wire Line
+	2350 3800 2350 4050
+Wire Wire Line
+	2650 3350 3600 3350
+Wire Wire Line
+	2650 3550 3600 3550
+Wire Wire Line
+	3250 4150 3600 4150
+Wire Wire Line
+	3250 4250 3600 4250
+Wire Wire Line
+	3450 4450 3600 4450
+Wire Wire Line
+	3450 4450 3450 4600
+Wire Wire Line
+	4100 6450 4100 6550
+$Comp
+L reform2-keyboard-rescue:ATmega32U4-AU-MCU_Microchip_ATmega U1
+U 1 1 5A21306C
+P 4200 4650
+AR Path="/5A21306C" Ref="U1"  Part="1" 
+AR Path="/5A2069AE/5A21306C" Ref="U1"  Part="1" 
+F 0 "U1" H 4450 2900 50  0000 C CNN
+F 1 "ATMEGA32U4-AU" H 4700 2800 50  0000 C CNN
+F 2 "Housings_QFP:TQFP-44_10x10mm_Pitch0.8mm" H 4200 4650 50  0001 C CIN
+F 3 "" H 5300 5750 50  0001 C CNN
+F 4 "Microchip" H 4200 4650 50  0001 C CNN "Manufacturer"
+F 5 "ATMEGA32U4-AU" H 4200 4650 50  0001 C CNN "Manufacturer_No"
+	1    4200 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 6450 4100 6450
+Connection ~ 4100 6450
+Wire Wire Line
+	3400 2500 3400 2550
+Connection ~ 4100 2250
+$Comp
+L power:+5V #PWR05
+U 1 1 5CF326CA
+P 3100 3950
+F 0 "#PWR05" H 3100 3800 50  0001 C CNN
+F 1 "+5V" H 3100 4090 50  0000 C CNN
+F 2 "" H 3100 3950 50  0001 C CNN
+F 3 "" H 3100 3950 50  0001 C CNN
+	1    3100 3950
+	1    0    0    -1  
+$EndComp
+Text GLabel 1400 2200 0    60   Input ~ 0
+PROG
+Text GLabel 4800 5250 2    60   Input ~ 0
+PROG
+$Comp
+L reform2-keyboard-rescue:SW_SPST-Switch SW83
+U 1 1 5CF3DA9E
+P 1750 1600
+F 0 "SW83" H 1750 1835 50  0000 C CNN
+F 1 "RESET" H 1750 1744 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KMR2" H 1750 1600 50  0001 C CNN
+F 3 "~" H 1750 1600 50  0001 C CNN
+F 4 "C&K" H 1750 1600 50  0001 C CNN "Manufacturer"
+F 5 "KMR221GLFS" H 1750 1600 50  0001 C CNN "Manufacturer_No"
+	1    1750 1600
+	1    0    0    -1  
+$EndComp
+Text GLabel 1500 1600 0    60   Input ~ 0
+RESET
+Wire Wire Line
+	1500 1600 1550 1600
+$Comp
+L power:GND #PWR01
+U 1 1 5CF3FA6D
+P 2050 1600
+F 0 "#PWR01" H 2050 1350 50  0001 C CNN
+F 1 "GND" H 2050 1450 50  0000 C CNN
+F 2 "" H 2050 1600 50  0001 C CNN
+F 3 "" H 2050 1600 50  0001 C CNN
+	1    2050 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 1600 1950 1600
+$Comp
+L reform2-keyboard-rescue:SW_DIP_x01-Switch SW84
+U 1 1 5CF54073
+P 1750 2200
+F 0 "SW84" H 1750 2500 50  0000 C CNN
+F 1 "SW_DIP_x01" H 1750 2400 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_DIP_SPSTx01_Slide_Omron_A6S-110x_W8.9mm_P2.54mm" H 1750 2200 50  0001 C CNN
+F 3 "~" H 1750 2200 50  0001 C CNN
+F 4 "Apem" H 1750 2200 50  0001 C CNN "Manufacturer"
+F 5 "DM01" H 1750 2200 50  0001 C CNN "Manufacturer_No"
+	1    1750 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 5CF5456D
+P 2150 2250
+F 0 "#PWR02" H 2150 2000 50  0001 C CNN
+F 1 "GND" H 2150 2100 50  0000 C CNN
+F 2 "" H 2150 2250 50  0001 C CNN
+F 3 "" H 2150 2250 50  0001 C CNN
+	1    2150 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 2250 2150 2200
+Wire Wire Line
+	2150 2200 2050 2200
+Wire Wire Line
+	1400 2200 1450 2200
+$Comp
+L reform2-keyboard-rescue:R_Small-Device R4
+U 1 1 5CF5B5C6
+P 3500 3750
+F 0 "R4" H 3530 3770 50  0000 L CNN
+F 1 "0" H 3530 3710 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3500 3750 50  0001 C CNN
+F 3 "" H 3500 3750 50  0001 C CNN
+F 4 "Vishay Dale" H 3500 3750 50  0001 C CNN "Manufacturer"
+F 5 "CRCW06030000Z0EAC" H 3500 3750 50  0001 C CNN "Manufacturer_No"
+	1    3500 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J2
+U 1 1 5CF60438
+P 8100 5300
+F 0 "J2" H 8100 5600 50  0000 C CNN
+F 1 "UART" H 8100 4900 50  0000 C CNN
+F 2 "Connector_JST:JST_PH_S4B-PH-SM4-TB_1x04-1MP_P2.00mm_Horizontal" H 8100 5300 50  0001 C CNN
+F 3 "" H 8100 5300 50  0001 C CNN
+F 4 "JST" H 8100 5300 50  0001 C CNN "Manufacturer"
+F 5 "S4B-PH-SM4-TB(LF)(SN)" H 8100 5300 50  0001 C CNN "Manufacturer_No"
+	1    8100 5300
+	1    0    0    -1  
+$EndComp
+Text GLabel 7900 5300 0    60   Output ~ 0
+UART_RX
+Text GLabel 4800 4650 2    60   Output ~ 0
+UART_TX
+Text GLabel 4800 4550 2    60   Input ~ 0
+UART_RX
+$Comp
+L reform2-keyboard-rescue:MountingHole_Pad-Mechanical H1
+U 1 1 5CFAB6F9
+P 2750 7100
+F 0 "H1" H 2850 7149 50  0000 L CNN
+F 1 "MH1" H 2850 7058 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 2750 7100 50  0001 C CNN
+F 3 "~" H 2750 7100 50  0001 C CNN
+	1    2750 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L reform2-keyboard-rescue:MountingHole_Pad-Mechanical H2
+U 1 1 5CFABDD2
+P 3100 7100
+F 0 "H2" H 3200 7149 50  0000 L CNN
+F 1 "MH2" H 3200 7058 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 3100 7100 50  0001 C CNN
+F 3 "~" H 3100 7100 50  0001 C CNN
+	1    3100 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L reform2-keyboard-rescue:MountingHole_Pad-Mechanical H3
+U 1 1 5CFAC2C0
+P 3450 7100
+F 0 "H3" H 3550 7149 50  0000 L CNN
+F 1 "MH3" H 3550 7058 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 3450 7100 50  0001 C CNN
+F 3 "~" H 3450 7100 50  0001 C CNN
+	1    3450 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L reform2-keyboard-rescue:MountingHole_Pad-Mechanical H4
+U 1 1 5CFAC2CA
+P 3800 7100
+F 0 "H4" H 3900 7149 50  0000 L CNN
+F 1 "MH4" H 3900 7058 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 3800 7100 50  0001 C CNN
+F 3 "~" H 3800 7100 50  0001 C CNN
+	1    3800 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 5CFB0132
+P 2750 7300
+F 0 "#PWR04" H 2750 7050 50  0001 C CNN
+F 1 "GND" H 2750 7150 50  0000 C CNN
+F 2 "" H 2750 7300 50  0001 C CNN
+F 3 "" H 2750 7300 50  0001 C CNN
+	1    2750 7300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 7300 2750 7200
+Wire Wire Line
+	2750 7200 3100 7200
+Connection ~ 2750 7200
+Connection ~ 3100 7200
+Wire Wire Line
+	3100 7200 3450 7200
+Connection ~ 3450 7200
+Wire Wire Line
+	3450 7200 3800 7200
+$Comp
+L reform2-keyboard-rescue:MountingHole-Mechanical GFX1
+U 1 1 5CFBB66E
+P 5100 7100
+F 0 "GFX1" H 5200 7146 50  0000 L CNN
+F 1 "MNT" H 5200 7055 50  0000 L CNN
+F 2 "reform2-keyboard:mntreform" H 5100 7100 50  0001 C CNN
+F 3 "~" H 5100 7100 50  0001 C CNN
+	1    5100 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L reform2-keyboard-rescue:MountingHole-Mechanical GFX2
+U 1 1 5CFBBDCD
+P 5600 7100
+F 0 "GFX2" H 5700 7146 50  0000 L CNN
+F 1 "MNT" H 5700 7055 50  0000 L CNN
+F 2 "reform2-keyboard:mntreform" H 5600 7100 50  0001 C CNN
+F 3 "~" H 5600 7100 50  0001 C CNN
+	1    5600 7100
+	1    0    0    -1  
+$EndComp
+Text Label 3400 4150 0    60   ~ 0
+UD+
+Text Label 3400 4250 0    60   ~ 0
+UD-
+$Comp
+L Connector_Generic:Conn_01x04 J3
+U 1 1 5D0C1E6C
+P 9400 5300
+F 0 "J3" H 9400 5600 50  0000 C CNN
+F 1 "AUX" H 9400 4950 50  0000 C CNN
+F 2 "Connector_FFC-FPC:Molex_200528-0040_1x04-1MP_P1.00mm_Horizontal" H 9400 5300 50  0001 C CNN
+F 3 "" H 9400 5300 50  0001 C CNN
+F 4 "Molex" H 9400 5300 50  0001 C CNN "Manufacturer"
+F 5 "200528-0040" H 9400 5300 50  0001 C CNN "Manufacturer_No"
+	1    9400 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR019
+U 1 1 5D0C1E81
+P 8750 5500
+F 0 "#PWR019" H 8750 5250 50  0001 C CNN
+F 1 "GND" H 8750 5350 50  0000 C CNN
+F 2 "" H 8750 5500 50  0001 C CNN
+F 3 "" H 8750 5500 50  0001 C CNN
+	1    8750 5500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8750 5500 9200 5500
+Wire Wire Line
+	4100 2150 4100 2250
+Wire Wire Line
+	4100 2250 3800 2250
+Text Notes 1000 7500 0    60   ~ 0
+lid sensor was SM351LT
+$Comp
+L Connector_Generic:Conn_01x04 J1
+U 1 1 5A213B3D
+P 6850 5300
+F 0 "J1" H 6850 5600 50  0000 C CNN
+F 1 "USB" H 6850 4900 50  0000 C CNN
+F 2 "Connector_JST:JST_PH_S4B-PH-SM4-TB_1x04-1MP_P2.00mm_Horizontal" H 6850 5300 50  0001 C CNN
+F 3 "" H 6850 5300 50  0001 C CNN
+F 4 "JST" H 6850 5300 50  0001 C CNN "Manufacturer"
+F 5 "S4B-PH-SM4-TB(LF)(SN)" H 6850 5300 50  0001 C CNN "Manufacturer_No"
+	1    6850 5300
+	1    0    0    -1  
+$EndComp
+Text GLabel 6650 5300 0    60   Input ~ 0
+D-
+Text GLabel 6650 5400 0    60   Input ~ 0
+D+
+Wire Wire Line
+	4100 2250 4100 2850
+Wire Wire Line
+	3800 2300 3800 2250
+$Comp
+L power:+3V3 #PWR011
+U 1 1 5DC3E3E7
+P 4200 1900
+F 0 "#PWR011" H 4200 1750 50  0001 C CNN
+F 1 "+3V3" H 4215 2073 50  0000 C CNN
+F 2 "" H 4200 1900 50  0001 C CNN
+F 3 "" H 4200 1900 50  0001 C CNN
+	1    4200 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 1900 4200 2250
+Wire Wire Line
+	4300 2500 4200 2500
+Wire Wire Line
+	4300 2500 4300 2850
+Connection ~ 4200 2500
+Wire Wire Line
+	4200 2500 4200 2850
+$Comp
+L reform2-keyboard-rescue:C_Small-Device C6
+U 1 1 5DC43CAF
+P 5050 2400
+AR Path="/5DC43CAF" Ref="C6"  Part="1" 
+AR Path="/5A2069AE/5DC43CAF" Ref="C6"  Part="1" 
+F 0 "C6" H 5060 2470 50  0000 L CNN
+F 1 "0.1uF" H 5100 2300 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5050 2400 50  0001 C CNN
+F 3 "" H 5050 2400 50  0001 C CNN
+F 4 "Yageo" H 5050 2400 50  0001 C CNN "Manufacturer"
+F 5 "CC0603JPX7R9BB104" H 5050 2400 50  0001 C CNN "Manufacturer_No"
+	1    5050 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 2550 5050 2500
+Wire Wire Line
+	5050 2500 4800 2500
+Connection ~ 5050 2500
+Wire Wire Line
+	4800 2250 5050 2250
+Wire Wire Line
+	5050 2250 5050 2300
+Connection ~ 4800 2250
+Wire Wire Line
+	4200 2250 4800 2250
+Connection ~ 4200 2250
+Wire Wire Line
+	4200 2250 4200 2500
+$Comp
+L power:+3V3 #PWR06
+U 1 1 5DC4C10B
+P 3400 2500
+F 0 "#PWR06" H 3400 2350 50  0001 C CNN
+F 1 "+3V3" H 3415 2673 50  0000 C CNN
+F 2 "" H 3400 2500 50  0001 C CNN
+F 3 "" H 3400 2500 50  0001 C CNN
+	1    3400 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 3950 3600 3950
+$Comp
+L power:GND #PWR015
+U 1 1 5DC4E576
+P 6450 5650
+F 0 "#PWR015" H 6450 5400 50  0001 C CNN
+F 1 "GND" H 6450 5500 50  0000 C CNN
+F 2 "" H 6450 5650 50  0001 C CNN
+F 3 "" H 6450 5650 50  0001 C CNN
+	1    6450 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 5650 6450 5500
+$Comp
+L power:+5V #PWR013
+U 1 1 5DC4FFE0
+P 6200 5150
+F 0 "#PWR013" H 6200 5000 50  0001 C CNN
+F 1 "+5V" H 6200 5290 50  0000 C CNN
+F 2 "" H 6200 5150 50  0001 C CNN
+F 3 "" H 6200 5150 50  0001 C CNN
+	1    6200 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 5150 6200 5200
+Wire Wire Line
+	6200 5200 6500 5200
+$Comp
+L power:PWR_FLAG #FLG01
+U 1 1 5DC538F6
+P 6500 5200
+F 0 "#FLG01" H 6500 5275 50  0001 C CNN
+F 1 "PWR_FLAG" H 6500 5400 50  0000 C CNN
+F 2 "" H 6500 5200 50  0001 C CNN
+F 3 "~" H 6500 5200 50  0001 C CNN
+	1    6500 5200
+	1    0    0    -1  
+$EndComp
+Connection ~ 6500 5200
+Wire Wire Line
+	6500 5200 6650 5200
+Wire Wire Line
+	6450 5500 6650 5500
+$Comp
+L power:+3V3 #PWR016
+U 1 1 5DC5E67D
+P 7350 5150
+F 0 "#PWR016" H 7350 5000 50  0001 C CNN
+F 1 "+3V3" H 7365 5323 50  0000 C CNN
+F 2 "" H 7350 5150 50  0001 C CNN
+F 3 "" H 7350 5150 50  0001 C CNN
+	1    7350 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7350 5200 7700 5200
+$Comp
+L power:PWR_FLAG #FLG02
+U 1 1 5DC6E134
+P 7700 5200
+F 0 "#FLG02" H 7700 5275 50  0001 C CNN
+F 1 "PWR_FLAG" H 7700 5400 50  0000 C CNN
+F 2 "" H 7700 5200 50  0001 C CNN
+F 3 "~" H 7700 5200 50  0001 C CNN
+	1    7700 5200
+	1    0    0    -1  
+$EndComp
+Connection ~ 7700 5200
+Wire Wire Line
+	7700 5200 7900 5200
+$Comp
+L power:GND #PWR017
+U 1 1 5DC7484C
+P 7700 5650
+F 0 "#PWR017" H 7700 5400 50  0001 C CNN
+F 1 "GND" H 7700 5500 50  0000 C CNN
+F 2 "" H 7700 5650 50  0001 C CNN
+F 3 "" H 7700 5650 50  0001 C CNN
+	1    7700 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7700 5650 7700 5500
+Wire Wire Line
+	7700 5500 7900 5500
+Wire Wire Line
+	7350 5150 7350 5200
+Text GLabel 9200 5300 0    60   Input ~ 0
+DISP_SCL
+Text GLabel 9200 5400 0    60   Input ~ 0
+DISP_SDA
+$Comp
+L power:+3V3 #PWR018
+U 1 1 5DC9A968
+P 8750 5200
+F 0 "#PWR018" H 8750 5050 50  0001 C CNN
+F 1 "+3V3" V 8765 5328 50  0000 L CNN
+F 2 "" H 8750 5200 50  0001 C CNN
+F 3 "" H 8750 5200 50  0001 C CNN
+	1    8750 5200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8750 5200 9200 5200
+Text GLabel 4800 4350 2    60   Output ~ 0
+DISP_SCL
+Text GLabel 4800 4450 2    60   Output ~ 0
+DISP_SDA
+Text GLabel 7900 5400 0    60   Input ~ 0
+UART_TX
+Text GLabel 4800 3850 2    60   Output ~ 0
+PWM
+Text GLabel 6300 4050 0    60   Input ~ 0
+DISP_SCL
+Text GLabel 6300 3950 0    60   Input ~ 0
+DISP_SDA
+$Comp
+L reform2-keyboard-rescue:R_Small-Device R5
+U 1 1 5DCCE912
+P 6400 3850
+F 0 "R5" H 6459 3896 50  0000 L CNN
+F 1 "4.7k" H 6459 3805 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6400 3850 50  0001 C CNN
+F 3 "~" H 6400 3850 50  0001 C CNN
+F 4 "Yageo" H 6400 3850 50  0001 C CNN "Manufacturer"
+F 5 "RC0603FR-074K7L" H 6400 3850 50  0001 C CNN "Manufacturer_No"
+	1    6400 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L reform2-keyboard-rescue:R_Small-Device R6
+U 1 1 5DCD0C98
+P 6700 3850
+F 0 "R6" H 6759 3896 50  0000 L CNN
+F 1 "4.7k" H 6759 3805 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6700 3850 50  0001 C CNN
+F 3 "~" H 6700 3850 50  0001 C CNN
+F 4 "Yageo" H 6700 3850 50  0001 C CNN "Manufacturer"
+F 5 "RC0603FR-074K7L" H 6700 3850 50  0001 C CNN "Manufacturer_No"
+	1    6700 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 3950 6400 3950
+Wire Wire Line
+	6700 3950 6700 4050
+Wire Wire Line
+	6700 4050 6300 4050
+$Comp
+L power:+3V3 #PWR014
+U 1 1 5DCD89CE
+P 6400 3550
+F 0 "#PWR014" H 6400 3400 50  0001 C CNN
+F 1 "+3V3" H 6415 3723 50  0000 C CNN
+F 2 "" H 6400 3550 50  0001 C CNN
+F 3 "" H 6400 3550 50  0001 C CNN
+	1    6400 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 3550 6400 3650
+Wire Wire Line
+	6400 3650 6700 3650
+Wire Wire Line
+	6700 3650 6700 3750
+Connection ~ 6400 3650
+Wire Wire Line
+	6400 3650 6400 3750
+Text Notes 8600 4950 0    60   ~ 0
+To SSD1306
+$Comp
+L reform2-keyboard-rescue:MountingHole_Pad-Mechanical H5
+U 1 1 5DC7F0C0
+P 4200 7100
+F 0 "H5" H 4300 7149 50  0000 L CNN
+F 1 "MH5" H 4300 7058 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 4200 7100 50  0001 C CNN
+F 3 "~" H 4200 7100 50  0001 C CNN
+	1    4200 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L reform2-keyboard-rescue:MountingHole_Pad-Mechanical H6
+U 1 1 5DC7F6F1
+P 4600 7100
+F 0 "H6" H 4700 7149 50  0000 L CNN
+F 1 "MH6" H 4700 7058 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 4600 7100 50  0001 C CNN
+F 3 "~" H 4600 7100 50  0001 C CNN
+	1    4600 7100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 7200 4200 7200
+Connection ~ 3800 7200
+Connection ~ 4200 7200
+Wire Wire Line
+	4200 7200 3800 7200
+Wire Wire Line
+	2850 3750 2850 2550
+Wire Wire Line
+	2850 2550 3400 2550
+Wire Wire Line
+	2850 3750 3400 3750
+Connection ~ 3400 2550
+Wire Wire Line
+	3400 2550 3400 2700
+$Comp
+L reform2-keyboard-rescue:USB_C_Receptacle_USB2.0-Connector J4
+U 1 1 5E62B709
+P 7900 3050
+AR Path="/5E62B709" Ref="J4"  Part="1" 
+AR Path="/5A2069AE/5E62B709" Ref="J4"  Part="1" 
+F 0 "J4" H 8007 3917 50  0000 C CNN
+F 1 "USB_C_Receptacle_USB2.0" H 8007 3826 50  0000 C CNN
+F 2 "Connector_USB:USB_C_Receptacle_Amphenol_12401610E4-2A" H 8050 3050 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 8050 3050 50  0001 C CNN
+F 4 "12401610E4#2A" H 7900 3050 50  0001 C CNN "Manufacturer_No"
+F 5 "Amphenol" H 7900 3050 50  0001 C CNN "Manufacturer"
+F 6 "DNP" H 7900 3050 50  0001 C CNN "Flags"
+	1    7900 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR027
+U 1 1 5E62C5BA
+P 8700 2350
+F 0 "#PWR027" H 8700 2200 50  0001 C CNN
+F 1 "+5V" H 8700 2490 50  0000 C CNN
+F 2 "" H 8700 2350 50  0001 C CNN
+F 3 "" H 8700 2350 50  0001 C CNN
+	1    8700 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 2350 8700 2450
+Wire Wire Line
+	8700 2450 8500 2450
+$Comp
+L power:GND #PWR026
+U 1 1 5E62E7B3
+P 7600 4100
+F 0 "#PWR026" H 7600 3850 50  0001 C CNN
+F 1 "GND" H 7600 3950 50  0000 C CNN
+F 2 "" H 7600 4100 50  0001 C CNN
+F 3 "" H 7600 4100 50  0001 C CNN
+	1    7600 4100
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7600 4100 7600 4000
+Wire Wire Line
+	7600 4000 7900 4000
+Wire Wire Line
+	7900 4000 7900 3950
+Connection ~ 7600 4000
+Wire Wire Line
+	7600 4000 7600 3950
+Text GLabel 8650 2950 2    60   Input ~ 0
+D-
+Wire Wire Line
+	8650 2950 8500 2950
+Text GLabel 8650 3050 2    60   Input ~ 0
+D-
+Wire Wire Line
+	8650 3050 8500 3050
+Text GLabel 8650 3150 2    60   Input ~ 0
+D+
+Wire Wire Line
+	8650 3150 8500 3150
+Text GLabel 8650 3250 2    60   Input ~ 0
+D+
+Wire Wire Line
+	8650 3250 8500 3250
+$Comp
+L reform2-keyboard-rescue:R_Small-Device R13
+U 1 1 5E63CB6C
+P 9050 2650
+F 0 "R13" V 8854 2650 50  0000 C CNN
+F 1 "5.1k" V 8945 2650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 9050 2650 50  0001 C CNN
+F 3 "~" H 9050 2650 50  0001 C CNN
+F 4 "Panasonic" H 9050 2650 50  0001 C CNN "Manufacturer"
+F 5 "ERJ-3EKF5101V" H 9050 2650 50  0001 C CNN "Manufacturer_No"
+F 6 "DNP" H 9050 2650 50  0001 C CNN "Flags"
+	1    9050 2650
+	0    1    1    0   
+$EndComp
+$Comp
+L reform2-keyboard-rescue:R_Small-Device R14
+U 1 1 5E63CE03
+P 9300 2750
+F 0 "R14" V 9550 2750 50  0000 C CNN
+F 1 "5.1k" V 9450 2750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 9300 2750 50  0001 C CNN
+F 3 "~" H 9300 2750 50  0001 C CNN
+F 4 "Panasonic" H 9300 2750 50  0001 C CNN "Manufacturer"
+F 5 "ERJ-3EKF5101V" H 9300 2750 50  0001 C CNN "Manufacturer_No"
+F 6 "DNP" H 9300 2750 50  0001 C CNN "Flags"
+	1    9300 2750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8500 2650 8950 2650
+Wire Wire Line
+	8500 2750 9200 2750
+$Comp
+L power:GND #PWR028
+U 1 1 5E642003
+P 9550 2850
+F 0 "#PWR028" H 9550 2600 50  0001 C CNN
+F 1 "GND" H 9555 2677 50  0000 C CNN
+F 2 "" H 9550 2850 50  0001 C CNN
+F 3 "" H 9550 2850 50  0001 C CNN
+	1    9550 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9550 2850 9550 2750
+Wire Wire Line
+	9550 2750 9400 2750
+Wire Wire Line
+	9150 2650 9550 2650
+Wire Wire Line
+	9550 2650 9550 2750
+Connection ~ 9550 2750
+NoConn ~ 8500 3550
+NoConn ~ 8500 3650
+Text Notes 7900 2050 0    60   ~ 0
+Only in standalone Keyboard
+$Comp
+L reform2-keyboard-rescue:MCP1700-3302E_SOT23-Regulator_Linear U3
+U 1 1 5F214B98
+P 9650 3800
+F 0 "U3" H 9650 4042 50  0000 C CNN
+F 1 "MCP1700-3302E_SOT23" H 9650 3951 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 9650 4025 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001826D.pdf" H 9650 3800 50  0001 C CNN
+F 4 "Microchip" H 9650 3800 50  0001 C CNN "Manufacturer"
+F 5 "MCP1700T-3302E/TT" H 9650 3800 50  0001 C CNN "Manufacturer_No"
+F 6 "DNP" H 9650 3800 50  0001 C CNN "Flags"
+	1    9650 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0102
+U 1 1 5F215B65
+P 9100 3750
+F 0 "#PWR0102" H 9100 3600 50  0001 C CNN
+F 1 "+5V" H 9100 3890 50  0000 C CNN
+F 2 "" H 9100 3750 50  0001 C CNN
+F 3 "" H 9100 3750 50  0001 C CNN
+	1    9100 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9100 3750 9100 3800
+Wire Wire Line
+	9100 3800 9350 3800
+$Comp
+L power:GND #PWR0103
+U 1 1 5F2187C9
+P 9650 4200
+F 0 "#PWR0103" H 9650 3950 50  0001 C CNN
+F 1 "GND" H 9655 4027 50  0000 C CNN
+F 2 "" H 9650 4200 50  0001 C CNN
+F 3 "" H 9650 4200 50  0001 C CNN
+	1    9650 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0104
+U 1 1 5F21B5B0
+P 10200 3750
+F 0 "#PWR0104" H 10200 3600 50  0001 C CNN
+F 1 "+3V3" H 10215 3923 50  0000 C CNN
+F 2 "" H 10200 3750 50  0001 C CNN
+F 3 "" H 10200 3750 50  0001 C CNN
+	1    10200 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10200 3750 10200 3800
+Wire Wire Line
+	10200 3800 9950 3800
+$Comp
+L reform2-keyboard-rescue:C_Small-Device C11
+U 1 1 5F2226E4
+P 9100 3950
+AR Path="/5F2226E4" Ref="C11"  Part="1" 
+AR Path="/5A2069AE/5F2226E4" Ref="C11"  Part="1" 
+F 0 "C11" H 9110 4020 50  0000 L CNN
+F 1 "1uF" H 9110 3870 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 9100 3950 50  0001 C CNN
+F 3 "" H 9100 3950 50  0001 C CNN
+F 4 "TDK" H 9100 3950 50  0001 C CNN "Manufacturer"
+F 5 "C1608X8L1C105K080AC" H 9100 3950 50  0001 C CNN "Manufacturer_No"
+F 6 "DNP" H 9100 3950 50  0001 C CNN "Flags"
+	1    9100 3950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L reform2-keyboard-rescue:C_Small-Device C12
+U 1 1 5F223065
+P 10200 3950
+AR Path="/5F223065" Ref="C12"  Part="1" 
+AR Path="/5A2069AE/5F223065" Ref="C12"  Part="1" 
+F 0 "C12" H 10210 4020 50  0000 L CNN
+F 1 "1uF" H 10210 3870 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 10200 3950 50  0001 C CNN
+F 3 "" H 10200 3950 50  0001 C CNN
+F 4 "TDK" H 10200 3950 50  0001 C CNN "Manufacturer"
+F 5 "C1608X8L1C105K080AC" H 10200 3950 50  0001 C CNN "Manufacturer_No"
+F 6 "DNP" H 10200 3950 50  0001 C CNN "Flags"
+	1    10200 3950
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	10200 3850 10200 3800
+Connection ~ 10200 3800
+Wire Wire Line
+	9100 3800 9100 3850
+Connection ~ 9100 3800
+Wire Wire Line
+	9650 4100 9650 4150
+Wire Wire Line
+	9650 4150 9100 4150
+Wire Wire Line
+	9100 4150 9100 4050
+Connection ~ 9650 4150
+Wire Wire Line
+	9650 4150 9650 4200
+Wire Wire Line
+	9650 4150 10200 4150
+Wire Wire Line
+	10200 4150 10200 4050
+Text GLabel 4800 4050 2    60   Input ~ 0
+RGB
+NoConn ~ 4800 5950
+Text GLabel 4800 4750 2    60   Input ~ 0
+ROW6
+$EndSCHEMATC
