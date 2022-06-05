@@ -1,0 +1,164 @@
+[
+  [
+    {
+      "x": 1,
+      "a": 0
+    },
+    "{\n\n\nQwerty\nF11",
+    "1\n\n\nReadline\nF1\n\n\n\n!",
+    "2\n\n\nLinux\nF2\n\n\n\n@",
+    "3\n\n\nMac\nF3\n\n\n\n#",
+    "4\n\n\nWin\nF4\n\n\n\n$",
+    "5\n\n\nChrome\nF5\n\n\n\n%",
+    {
+      "x": 2
+    },
+    "6\n\n\nstrict\nF6\n\n\n\n^",
+    "7\n\n\n\nF7\n\n\n\n&",
+    "8\n\n\n\nF8\n\n\n\n*",
+    "9\n\n\n<i class='fa fa-volume-off'></i>\nF9\n\n\n\n(",
+    "0\n\n\n<i class='fa fa-volume-down'></i>\nF10\n\n\n\n)",
+    {
+      "t": "#000000\n\n\n#000000"
+    },
+    "}\n\n\n<i class='fa fa-volume-up'></i>\nF12"
+  ],
+  [
+    {
+      "x": 1,
+      "t": "#000000",
+      "a": 4
+    },
+    "Tab",
+    "Q\n\n\n[",
+    {
+      "a": 0
+    },
+    "W\n\n\nFind\nBMode?",
+    "E\n\n\nFind++\nBmode++",
+    "R\n\n\n]\nBmode-",
+    {
+      "a": 4
+    },
+    "T",
+    {
+      "x": 2
+    },
+    "Y\n\n\nPgUp",
+    {
+      "a": 0
+    },
+    "U\n\n\nSOL\nDSOL",
+    {
+      "a": 4
+    },
+    "I\n\n\n↑\nRedo",
+    {
+      "a": 0
+    },
+    "O\n\n\nEOL\nDEOL",
+    {
+      "a": 4
+    },
+    "P\n\n\nPgDn",
+    "\\\n\n\n\n\n\n\n\n|"
+  ],
+  [
+    {
+      "x": 1,
+      "a": 0
+    },
+    "Esc\n\n\n\nCaps\n\nL1",
+    {
+      "a": 4
+    },
+    "A\n\n\nselAll",
+    "S\n\n\nDelMode",
+    "D\n\n\nShift",
+    {
+      "a": 0
+    },
+    "F\n\n\nCopy\n\nCut",
+    {
+      "a": 4
+    },
+    "G\n\n\nPaste",
+    {
+      "x": 2,
+      "a": 0
+    },
+    "H\n\n\nWordL\nDWordU",
+    "J\n\n\n←\nbspace",
+    {
+      "a": 4
+    },
+    "K\n\n\n↓\nUndo",
+    {
+      "a": 0
+    },
+    "L\n\n\n→\nDel",
+    ";\n\n\nWordR\nDwordR",
+    {
+      "a": 4
+    },
+    "'\n\n\n`\n\n\n\n\n\""
+  ],
+  [
+    {
+      "x": 0.5,
+      "a": 6,
+      "w": 1.5
+    },
+    "Shift",
+    {
+      "a": 4
+    },
+    "Z",
+    "X\n\n\nCut",
+    "C\n\n\nCopy",
+    "V\n\n\nPaste",
+    "B",
+    {
+      "x": 2
+    },
+    "N\n\n\n🤔",
+    "M\n\n\n👀",
+    ",\n\n\n😊",
+    ".\n\n\n👍",
+    "/\n\n\n↑",
+    {
+      "w": 1.5
+    },
+    "Shift\nLock"
+  ],
+  [
+    {
+      "x": 0.5
+    },
+    "Ctl",
+    {
+      "w": 1.5
+    },
+    "⌘Gui",
+    "~\n\n\n\n\n\nAlt",
+    "+\n\n\n\n\n\n\n\n=",
+    "Del\n\n\n\n\n\nL2",
+    {
+      "w": 1.5
+    },
+    "Back\n\n\n\n\n\nL1",
+    {
+      "x": 1,
+      "w": 1.5
+    },
+    "Spc;\n\n\n\n\n\nGui",
+    "Enter\n\n\n\n\n\nL1",
+    "-\n\n\n\n\n\n\n\n_",
+    "_\n\n\n←\n\n\n\n\n\nAlt",
+    {
+      "w": 1.5
+    },
+    "\n\n\n↓\n\n\nCtl",
+    "\n\n\n→\n\n\nMenu"
+  ]
+]
